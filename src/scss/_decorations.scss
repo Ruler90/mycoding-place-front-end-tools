@@ -1,0 +1,22 @@
+/* Decorations styles */
+
+@use './variables'as *;
+
+.fet-circle-decor {
+    position: absolute;
+
+    @media (max-width: 600px) {
+        display: none;
+    }
+
+    &--latest {
+        height: 250px;
+        bottom: -10px;
+        left: -100px;
+    }
+
+    &--cat-tiles {
+        right: -280px;
+        top: 20px;
+    }
+}

@@ -1,0 +1,52 @@
+/* Category buttons styles */
+
+@use './variables'as *;
+
+.fet-categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.fet-categories__item {
+    width: max-content;
+    margin: 0 12px 24px;
+    padding: 16px 32px;
+    border-radius: 20px;
+    background-color: $magnolia;
+    font-size: 16px;
+    color: $grey-5;
+    transition: box-shadow 200ms ease;
+
+    &:hover,
+    &:focus {
+        cursor: pointer;
+        box-shadow: 0 0 0 5px $portage;
+        outline: none;
+    }
+
+    &--active {
+        background-color: $portage;
+        color: $grey-5;
+        pointer-events: none;
+
+        &:focus {
+            box-shadow: none;
+        }
+    }
+
+    &--pending {
+        pointer-events: none;
+        
+        &:hover,
+        &:focus {
+            box-shadow: none;
+        }
+    }
+
+    @media (max-width: 600px) {
+        padding: 12px 24px;
+        margin: 0 8px 16px;
+    }
+}

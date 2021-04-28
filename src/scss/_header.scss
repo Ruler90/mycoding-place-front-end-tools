@@ -1,0 +1,78 @@
+/* Header styles */
+
+@use './variables'as *;
+
+.fet-header {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 160px 32px 64px;
+    color: $magnolia;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    @media (max-width: 800px) {
+        flex-direction: column;
+        padding: 48px 16px 0;
+    }
+}
+
+.fet-header__text-wrapper {
+    width: 60%;
+
+    @media (max-width: 800px) {
+        width: auto;
+    }
+}
+
+.fet-header__text {
+    margin: 0 0 32px;
+    font-size: 64px;
+    color: $perfume;
+    text-transform: uppercase;
+
+    @media (max-width: 1200px) {
+        font-size: 48px;
+    }
+
+    @media (max-width: 800px) {
+        text-align: center;
+    }
+
+    @media (max-width: 550px) {
+        font-size: 32px;
+    }
+}
+
+.fet-header__description {
+    max-width: 95%;
+    font-size: 24px;
+
+    @media (max-width: 980px) {
+        font-size: 22px;
+    }
+
+    @media (max-width: 800px) {
+        max-width: initial;
+        font-size: 18px;
+    }
+}
+
+.fet-header__tags-logo {
+    height: 230px;
+    margin: 0 auto;
+
+    @media (max-width: 980px) {
+        height: 160px;
+    }
+    
+    @media (max-width: 800px) {
+        width: auto;
+        margin-top: 32px;
+    }
+
+    @media (max-width: 430px) {
+        height: 120px;
+    }
+}

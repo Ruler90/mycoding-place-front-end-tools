@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="List of free resources, web apps and tools that will help developers and designers in their designing and coding process.">
+    <title>Front-End Tools</title>
+
+    <link rel="icon" type="image/svg+xml" href="./assets/svg/favicon.svg" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./scss/main.css">
+</head>
+
+<body>
+
+    <main>
+
+        <header class="fet-header">
+            <div class="fet-header__text-wrapper">
+                <h1 class="fet-header__text">Front-End Tools</h1>
+                <p class="fet-header__description">
+                    Hi! My name is Marcin and this is my selection of free resources, web apps and tools that will help
+                    you in your designing and coding process.
+                </p>
+            </div>
+
+            <img class="fet-header__tags-logo" src="./assets/svg/3d-tags.svg"
+                alt="image of the 3D opening and closing tag">
+        </header>
+
+        <section class="fet-section fet-section--latest">
+            <h2 class="fet-section__header">Latest findings</h2>
+            <ul class="fet-tiles fet-tiles--latest"></ul>
+            <img class="fet-circle-decor fet-circle-decor--latest" src="assets/svg/circle.svg"
+                alt="image of the circle contour in lavender gradient color">
+        </section>
+
+        <section class="fet-section fet-section--choose-category">
+            <h2 class="fet-section__header">Choose a category</h2>
+            <ul class="fet-categories">
+
+                <li class="fet-categories__item" tabindex="0" data-cat="cheatsheets">Cheatsheets</li>
+                <li class="fet-categories__item" tabindex="0" data-cat="color-palettes">Colors</li>
+                <li class="fet-categories__item" tabindex="0" data-cat="inspirations">Inspirations</li>
+                <li class="fet-categories__item" tabindex="0" data-cat="gradients">Gradients</li>
+                <li class="fet-categories__item" tabindex="0" data-cat="backgrounds">Backgrounds</li>
+                <li class="fet-categories__item" tabindex="0" data-cat="css-tools">CSS Tools</li>
+                <li class="fet-categories__item" tabindex="0" data-cat="svg">SVGs</li>
+                <li class="fet-categories__item" tabindex="0" data-cat="accessibility">Accessibility</li>
+                <li class="fet-categories__item" tabindex="0" data-cat="js-tools">JS Tools</li>
+                <li class="fet-categories__item" tabindex="0" data-cat="js-libraries">JS Libraries</li>
+                <li class="fet-categories__item" tabindex="0" data-cat="audit">Audit</li>
+                <li class="fet-categories__item" tabindex="0" data-cat="other">Other</li>
+
+            </ul>
+        </section>
+
+        <section class="fet-section fet-section--category">
+            <ul class="fet-tiles fet-tiles--category"></ul>
+            <img class="fet-circle-decor fet-circle-decor--cat-tiles" src="assets/svg/circle.svg"
+                alt="image of the big circle contour in lavender gradient color">
+        </section>
+
+    </main>
+
+    <footer>&copy; 2021 Ruler90</footer>
+
+    <script src="./js/db.js"></script>
+    <script src="./js/tiles.js"></script>
+
+</body>
+
+</html>

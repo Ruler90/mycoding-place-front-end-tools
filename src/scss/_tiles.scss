@@ -1,0 +1,112 @@
+/* Tiles styles */
+
+@use './variables'as *;
+
+.fet-tiles {
+    margin: 0 auto;
+    width: max-content;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 32px;
+    position: relative;
+    z-index: 2;
+
+    @media (max-width: 1200px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media (max-width: 980px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: 600px) {
+        grid-gap: 32px 8px;
+    }
+
+    &--latest {}
+
+    &--category {}
+}
+
+.fet-tile {
+    transition: transform 400ms ease, opacity 350ms ease;
+    transform: translateY(0);
+    opacity: 1;
+
+    &--fade-out {
+        transform: translateY(150px);
+        opacity: 0;
+    }
+
+    &--new .fet-tile__new-label {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.fet-tile__link {
+    width: 230px;
+    height: 160px;
+    padding: 16px;
+    background: linear-gradient(244.18deg, #404040 0%, #1A1A1A 100%);
+    border: 5px solid $perfume;
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: 1fr max-content;
+    position: relative;
+    transition: transform 300ms ease;
+
+    &:hover,
+    &:focus {
+        transform: translateY(-10px);
+    }
+
+    @media (max-width: 600px) {
+        box-sizing: border-box;
+        padding: 8px;
+    }
+
+    @media (max-width: 500px) {
+        width: 180px;
+        border: 3px solid $perfume;
+    }
+
+    @media (max-width: 380px) {
+        width: 170px;
+        border: 2px solid $perfume;
+    }
+}
+
+.fet-tile__new-label {
+    display: none;
+    width: 60px;
+    height: 21px;
+    background-color: $malachite;
+    position: absolute;
+    top: -13px;
+    left: 20px;
+}
+
+.fet-tile__new-label-text {
+    color: $woodsmoke;
+    font-size: 14px;
+}
+
+.fet-tile__text {
+    color: $magnolia;
+    font-size: 18px;
+    text-align: center;
+    align-self: center;
+
+    @media (max-width: 600px) {
+        font-size: 16px;
+    }
+}
+
+.fet-tile__date {
+    color: $perfume;
+    font-size: 14px;
+    text-align: center;
+    align-self: flex-end;
+}

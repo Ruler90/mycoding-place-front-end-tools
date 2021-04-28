@@ -1,0 +1,87 @@
+/* General styles */
+
+@use './variables' as *;
+
+html {
+    scroll-behavior: smooth;
+    scrollbar-color: $portage $magnolia;
+    scrollbar-width: thin;
+
+    &::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+        border-radius: 5px;
+    }
+
+    &::-webkit-scrollbar-track {
+        border-radius: 5px;
+        background-color: $magnolia;
+        margin: 2px 0;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        border-radius: 5px;
+        background-color: $portage;
+    }
+}
+
+body {
+    font-family: 'Fira Code', monospace;
+    font-weight: 700;
+    overflow-x: hidden;
+}
+
+main {
+    background-image: url('../assets/svg/grey-lines-bg.svg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fet-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+
+    &--latest {
+        padding: 64px 0 88px;
+
+        @media (max-width: 767px) {
+            padding: 32px 0 48px;
+        }
+    }
+
+    &--choose-category {
+        padding: 80px 0 48px;
+
+        @media (max-width: 767px) {
+            padding: 32px 0 16px;
+        }
+    }
+
+    &--category {
+        min-height: 500px;
+        padding: 32px 0 160px;
+    }
+}
+
+.fet-section__header {
+    font-size: 42px;
+    margin-bottom: 48px;
+    text-transform: uppercase;
+    color: $magnolia;
+    text-align: center;
+
+    @media (max-width: 1200px) {
+        font-size: 32px;
+    }
+}
+
+footer {
+    height: 60px;
+    background-image: linear-gradient(to left, $grey-5, $grey-15, $grey-5);
+    color: $magnolia;
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+    position: relative;
+}
