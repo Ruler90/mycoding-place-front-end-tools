@@ -35,6 +35,12 @@ main {
     background-image: url('../assets/svg/grey-lines-bg.svg');
     background-size: cover;
     background-attachment: fixed;
+
+    @media (max-width: 767px) {
+        background-attachment: initial;
+        background-image: none;
+        background-color: $grey-15;
+    }
 }
 
 .fet-section {

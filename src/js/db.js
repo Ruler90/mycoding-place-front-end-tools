@@ -24,7 +24,7 @@ db = [
     {
         added: 'Jul 9, 2020',
         category: 'inspirations',
-        description: 'dribble',
+        description: 'dribbble',
         link: 'https://dribbble.com/',
         new: false
     },

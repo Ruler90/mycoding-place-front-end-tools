@@ -232,6 +232,13 @@ main {
   background-size: cover;
   background-attachment: fixed;
 }
+@media (max-width: 767px) {
+  main {
+    background-attachment: initial;
+    background-image: none;
+    background-color: #262626;
+  }
+}
 
 .fet-section {
   max-width: 1200px;
@@ -401,7 +408,7 @@ footer {
   opacity: 1;
 }
 .fet-tile--fade-out {
-  transform: translateY(150px);
+  transform: translateY(200px);
   opacity: 0;
 }
 .fet-tile--new .fet-tile__new-label {
