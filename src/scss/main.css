@@ -225,15 +225,12 @@ body {
   font-family: "Fira Code", monospace;
   font-weight: 700;
   overflow-x: hidden;
-}
-
-main {
   background-image: url("../assets/svg/grey-lines-bg.svg");
   background-size: cover;
   background-attachment: fixed;
 }
 @media (max-width: 767px) {
-  main {
+  body {
     background-attachment: initial;
     background-image: none;
     background-color: #262626;
@@ -287,6 +284,44 @@ footer {
   place-items: center;
   font-size: 20px;
   position: relative;
+}
+
+.mcp-nav {
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.mcp-nav__items {
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+}
+
+.mcp-nav__item {
+  margin: 0 16px;
+}
+.mcp-nav__item:last-child {
+  margin-left: auto;
+}
+
+.mcp-nav__link {
+  color: #bbbbf6;
+  font-size: 18px;
+}
+.mcp-nav__link:hover, .mcp-nav__link:focus {
+  color: #fbfaff;
+}
+@media (max-width: 550px) {
+  .mcp-nav__link {
+    font-size: 16px;
+  }
+}
+.mcp-nav__link--inactive {
+  pointer-events: none;
+  color: #8484ad;
 }
 
 /* Header styles */
