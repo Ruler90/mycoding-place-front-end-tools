@@ -2,7 +2,7 @@
 
 @use './variables'as *;
 
-.fet-tiles {
+.mcp-tiles {
     margin: 0 auto;
     width: max-content;
     display: grid;
@@ -28,7 +28,7 @@
     &--category {}
 }
 
-.fet-tile {
+.mcp-tile {
     transition: transform 400ms ease, opacity 350ms ease;
     transform: translateY(0);
     opacity: 1;
@@ -38,14 +38,14 @@
         opacity: 0;
     }
 
-    &--new .fet-tile__new-label {
+    &--new .mcp-tile__new-label {
         display: flex;
         justify-content: center;
         align-items: center;
     }
 }
 
-.fet-tile__link {
+.mcp-tile__link {
     width: 230px;
     height: 160px;
     padding: 16px;
@@ -78,7 +78,7 @@
     }
 }
 
-.fet-tile__new-label {
+.mcp-tile__new-label {
     display: none;
     width: 60px;
     height: 21px;
@@ -88,12 +88,12 @@
     left: 20px;
 }
 
-.fet-tile__new-label-text {
+.mcp-tile__new-label-text {
     color: $woodsmoke;
     font-size: 14px;
 }
 
-.fet-tile__text {
+.mcp-tile__text {
     color: $magnolia;
     font-size: 18px;
     text-align: center;
@@ -104,7 +104,7 @@
     }
 }
 
-.fet-tile__date {
+.mcp-tile__date {
     color: $perfume;
     font-size: 14px;
     text-align: center;
