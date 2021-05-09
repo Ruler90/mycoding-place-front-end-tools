@@ -2,7 +2,7 @@
 
 @use './variables'as *;
 
-.fet-header {
+.mcp-header {
     max-width: 1200px;
     margin: 0 auto;
     padding: 160px 32px 64px;
@@ -18,7 +18,7 @@
     }
 }
 
-.fet-header__text-wrapper {
+.mcp-header__text-wrapper {
     width: 60%;
 
     @media (max-width: 800px) {
@@ -26,7 +26,7 @@
     }
 }
 
-.fet-header__text {
+.mcp-header__text {
     margin: 0 0 32px;
     font-size: 64px;
     color: $perfume;
@@ -45,7 +45,7 @@
     }
 }
 
-.fet-header__description {
+.mcp-header__description {
     max-width: 95%;
     font-size: 24px;
 
@@ -59,7 +59,7 @@
     }
 }
 
-.fet-header__tags-logo {
+.mcp-header__tags-logo {
     height: 230px;
     margin: 0 auto;
 
