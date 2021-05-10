@@ -99,80 +99,87 @@ db = [
         link: 'https://docs.emmet.io/cheat-sheet/',
         new: false
     },
-    // Color Palettes
+    // Colors
+    {
+        added: 'May 10, 2021',
+        category: 'colors',
+        description: 'Khorma - AI-generated color palettes',
+        link: 'http://khroma.co/',
+        new: true
+    },
     {
         added: 'Mar 8, 2021',
-        category: 'color-palettes',
+        category: 'colors',
         description: 'Name that Color - Predecessor of Color Name & Hue',
         link: 'https://chir.ag/projects/name-that-color/',
         new: false
     },
     {
         added: 'Jan 7, 2021',
-        category: 'color-palettes',
+        category: 'colors',
         description: 'Color Name & Hue',
         link: 'https://www.color-blindness.com/color-name-hue/',
         new: false
     },
     {
         added: 'Nov 14, 2020',
-        category: 'color-palettes',
+        category: 'colors',
         description: 'Tint & Shade Generator',
         link: 'https://maketintsandshades.com/',
         new: false
     },
     {
         added: 'Jul 9, 2020',
-        category: 'color-palettes',
+        category: 'colors',
         description: 'Adobe Color - Create color palettes',
         link: 'https://color.adobe.com/create/color-wheel',
         new: false
     },
     {
         added: 'Jul 9, 2020',
-        category: 'color-palettes',
+        category: 'colors',
         description: 'ColorSpace - Enter a color and generate palettes',
         link: 'https://mycolor.space/',
         new: false
     },
     {
         added: 'Jul 9, 2020',
-        category: 'color-palettes',
+        category: 'colors',
         description: 'colors.lol - Overly descriptive color palettes',
         link: 'https://colors.lol/',
         new: false
     },
     {
         added: 'Jul 9, 2020',
-        category: 'color-palettes',
+        category: 'colors',
         description: 'Colormind - Generate color schemes for a bootstrap theme',
         link: 'http://colormind.io/bootstrap/',
         new: false
     },
     {
         added: 'Jul 9, 2020',
-        category: 'color-palettes',
+        category: 'colors',
         description: 'Colorwise - The wise choice of colors',
         link: 'https://colorwise.io/',
         new: false
     },
     {
         added: 'Jul 9, 2020',
-        category: 'color-palettes',
+        category: 'colors',
         description: 'colourco.de - Easily and intuitively combine colours',
         link: 'https://colourco.de/',
         new: false
     },
     {
         added: 'Jul 9, 2020',
-        category: 'color-palettes',
+        category: 'colors',
         description: 'Coolors - The super fast color schemes generator',
         link: 'https://coolors.co/',
         new: false
     },
     {
         added: 'Jul 9, 2020',
-        category: 'color-palettes',
+        category: 'colors',
         description: 'Color wheel - Makes color combinations easy',
         link: 'https://www.canva.com/colors/color-wheel/',
         new: false
@@ -469,7 +476,7 @@ db = [
         category: 'audit',
         description: 'Yellow Lab Tools - Speed up heavy web pages',
         link: 'https://yellowlab.tools/',
-        new: true
+        new: false
     },
     // Accessibility
     {
