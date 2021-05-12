@@ -1,4 +1,33 @@
 db = [
+    // Latest
+    {
+        added: 'May 12, 2021',
+        category: 'css-tools',
+        description: 'CSS Grid Generator & Grid basic capabilities tour',
+        link: 'https://cssgrid-generator.netlify.app/',
+        new: true
+    },
+    {
+        added: 'May 12, 2021',
+        category: 'css-tools',
+        description: 'Animista - CSS Animations on Demand',
+        link: 'https://animista.net/',
+        new: true
+    },
+    {
+        added: 'May 10, 2021',
+        category: 'colors',
+        description: 'Khorma - AI-generated color palettes',
+        link: 'http://khroma.co/',
+        new: true
+    },
+    {
+        added: 'Apr 15, 2021',
+        category: 'css-tools',
+        description: 'CSS + SVG Image Filters',
+        link: 'https://justcode.today/filters/',
+        new: true
+    },
     // Inspirations
     {
         added: 'Apr 14, 2021',
@@ -100,13 +129,6 @@ db = [
         new: false
     },
     // Colors
-    {
-        added: 'May 10, 2021',
-        category: 'colors',
-        description: 'Khorma - AI-generated color palettes',
-        link: 'http://khroma.co/',
-        new: true
-    },
     {
         added: 'Mar 8, 2021',
         category: 'colors',
@@ -237,18 +259,11 @@ db = [
     },
     // CSS Tools
     {
-        added: 'Apr 15, 2021',
-        category: 'css-tools',
-        description: 'CSS + SVG Image Filters',
-        link: 'https://justcode.today/filters/',
-        new: true
-    },
-    {
         added: 'Mar 8, 2021',
         category: 'css-tools',
         description: 'Fancy border-radius',
         link: 'https://9elements.github.io/fancy-border-radius/',
-        new: true
+        new: false
     },
     {
         added: 'Dec 19, 2020',
@@ -361,7 +376,7 @@ db = [
         category: 'svg',
         description: 'Haikei - Generate SVG design assets',
         link: 'https://app.haikei.app/',
-        new: true
+        new: false
     },
     {
         added: 'Feb 24, 2021',
