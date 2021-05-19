@@ -1,15 +1,43 @@
 db = [
     // Latest
     {
-        added: 'May 12, 2021',
+        added: 'May 19, 2021',
+        category: 'cheatsheets',
+        description: 'StatCounter Global Stats',
+        link: 'https://gs.statcounter.com/',
+        new: true
+    },
+    {
+        added: 'May 19, 2021',
+        category: 'svg',
+        description: 'Iconoir - Open Source Icons Library',
+        link: 'https://iconoir.com/',
+        new: true
+    },
+    {
+        added: 'May 19, 2021',
+        category: 'js-tools',
+        description: 'formsubmit.io - Handle contact forms without backend',
+        link: 'https://formsubmit.io/',
+        new: true
+    },
+    {
+        added: 'May 19, 2021',
         category: 'css-tools',
-        description: 'CSS Grid Generator & Grid basic capabilities tour',
+        description: 'CSS Accordion Slider Generator',
+        link: 'https://accordionslider.com/',
+        new: true
+    },
+    {
+        added: 'May 12, 2021',
+        category: 'grid',
+        description: 'CSS Grid and grid-areas generator',
         link: 'https://cssgrid-generator.netlify.app/',
         new: true
     },
     {
         added: 'May 12, 2021',
-        category: 'css-tools',
+        category: 'animations',
         description: 'Animista - CSS Animations on Demand',
         link: 'https://animista.net/',
         new: true
@@ -21,40 +49,85 @@ db = [
         link: 'http://khroma.co/',
         new: true
     },
+    // Accessibility
     {
-        added: 'Apr 15, 2021',
-        category: 'css-tools',
-        description: 'CSS + SVG Image Filters',
-        link: 'https://justcode.today/filters/',
-        new: true
-    },
-    // Inspirations
-    {
-        added: 'Apr 14, 2021',
-        category: 'inspirations',
-        description: 'UI Garage',
-        link: 'https://uigarage.net/',
+        added: 'Nov 14, 2020',
+        category: 'accessibility',
+        description: 'Color.review - Contrast ratio with visualizer',
+        link: 'https://color.review/',
         new: false
     },
     {
         added: 'Jul 9, 2020',
-        category: 'inspirations',
-        description: 'Web Design Inspiration',
-        link: 'https://www.webdesign-inspiration.com/',
+        category: 'accessibility',
+        description: 'Colorable - Check contrast ratio',
+        link: 'https://colorable.jxnblk.com/',
         new: false
     },
     {
         added: 'Jul 9, 2020',
-        category: 'inspirations',
-        description: 'Behance',
-        link: 'https://uigarage.net/',
+        category: 'accessibility',
+        description: 'WebAIM - Check contast ratio',
+        link: 'https://webaim.org/resources/contrastchecker/',
         new: false
     },
     {
         added: 'Jul 9, 2020',
-        category: 'inspirations',
-        description: 'dribbble',
-        link: 'https://dribbble.com/',
+        category: 'accessibility',
+        description: 'Accessibility Insights - Accessibility testing app',
+        link: 'https://accessibilityinsights.io/',
+        new: false
+    },
+    // Audit Tools
+    {
+        added: 'Mar 24, 2021',
+        category: 'audit',
+        description: 'Yellow Lab Tools - Speed up heavy web pages',
+        link: 'https://yellowlab.tools/',
+        new: false
+    },
+    // Animations
+    {
+        added: 'Jul 9, 2020',
+        category: 'animations',
+        description: 'Keyframes App - Create animations',
+        link: 'https://keyframes.app/animate/',
+        new: false
+    },
+    {
+        added: 'Jul 9, 2020',
+        category: 'animations',
+        description: 'AngryTools CSS Animation Kit',
+        link: 'http://angrytools.com/css/animation/',
+        new: false
+    },
+    // Backgrounds
+    {
+        added: 'Nov 17, 2020',
+        category: 'backgrounds',
+        description: 'SVG Backgrounds',
+        link: 'https://www.svgbackgrounds.com/',
+        new: false
+    },
+    {
+        added: 'Jul 9, 2020',
+        category: 'backgrounds',
+        description: 'CSS3 Patterns Gallery',
+        link: 'https://projects.verou.me/css3patterns/',
+        new: false
+    },
+    {
+        added: 'Jul 9, 2020',
+        category: 'backgrounds',
+        description: 'Cool Backgrounds',
+        link: 'https://coolbackgrounds.io/',
+        new: false
+    },
+    {
+        added: 'Jul 9, 2020',
+        category: 'backgrounds',
+        description: 'Subtle Patterns',
+        link: 'https://www.toptal.com/designers/subtlepatterns/',
         new: false
     },
     // Cheatsheets
@@ -206,57 +279,6 @@ db = [
         link: 'https://www.canva.com/colors/color-wheel/',
         new: false
     },
-    // Gradients
-    {
-        added: 'Jul 9, 2020',
-        category: 'gradients',
-        description: 'CSS Gradient',
-        link: 'https://cssgradient.io/',
-        new: false
-    },
-    {
-        added: 'Jul 9, 2020',
-        category: 'gradients',
-        description: 'Grabient',
-        link: 'https://www.grabient.com/',
-        new: false
-    },
-    {
-        added: 'Jul 9, 2020',
-        category: 'gradients',
-        description: 'Multicolor Gradients',
-        link: 'https://gradienta.io/',
-        new: false
-    },
-    // Backgrounds
-    {
-        added: 'Nov 17, 2020',
-        category: 'backgrounds',
-        description: 'SVG Backgrounds',
-        link: 'https://www.svgbackgrounds.com/',
-        new: false
-    },
-    {
-        added: 'Jul 9, 2020',
-        category: 'backgrounds',
-        description: 'CSS3 Patterns Gallery',
-        link: 'https://projects.verou.me/css3patterns/',
-        new: false
-    },
-    {
-        added: 'Jul 9, 2020',
-        category: 'backgrounds',
-        description: 'Cool Backgrounds',
-        link: 'https://coolbackgrounds.io/',
-        new: false
-    },
-    {
-        added: 'Jul 9, 2020',
-        category: 'backgrounds',
-        description: 'Subtle Patterns',
-        link: 'https://www.toptal.com/designers/subtlepatterns/',
-        new: false
-    },
     // CSS Tools
     {
         added: 'Mar 8, 2021',
@@ -270,34 +292,6 @@ db = [
         category: 'css-tools',
         description: 'Neumorphism.io - Generate Soft-UI CSS code',
         link: 'https://neumorphism.io/',
-        new: false
-    },
-    {
-        added: 'Jul 29, 2020',
-        category: 'css-tools',
-        description: 'CSS Filter Generator',
-        link: 'http://www.cssfiltergenerator.com/',
-        new: false
-    },
-    {
-        added: 'Jul 29, 2020',
-        category: 'css-tools',
-        description: 'Filter CSS Generator',
-        link: 'https://cssgenerator.org/filter-css-generator.html',
-        new: false
-    },
-    {
-        added: 'Jul 9, 2020',
-        category: 'css-tools',
-        description: 'Keyframes App - Create animations',
-        link: 'https://keyframes.app/animate/',
-        new: false
-    },
-    {
-        added: 'Jul 9, 2020',
-        category: 'css-tools',
-        description: 'AngryTools CSS Animation Kit',
-        link: 'http://angrytools.com/css/animation/',
         new: false
     },
     {
@@ -319,20 +313,6 @@ db = [
         category: 'css-tools',
         description: 'Create arrows for tooltips etc.',
         link: 'https://cssarrowplease.com/',
-        new: false
-    },
-    {
-        added: 'Jul 9, 2020',
-        category: 'css-tools',
-        description: 'Layoutit! CSS Grid Generator',
-        link: 'https://grid.layoutit.com/',
-        new: false
-    },
-    {
-        added: 'Jul 9, 2020',
-        category: 'css-tools',
-        description: 'cssgr.id - CSS Grid Generator',
-        link: 'https://cssgr.id/',
         new: false
     },
     {
@@ -368,6 +348,153 @@ db = [
         category: 'css-tools',
         description: 'Bun - A Custom Checkboxes & Radios CSS Generator',
         link: 'https://bun.js.org/',
+        new: false
+    },
+    // Filters
+    {
+        added: 'Apr 15, 2021',
+        category: 'filters',
+        description: 'CSS + SVG Image Filters',
+        link: 'https://justcode.today/filters/',
+        new: false
+    },
+    {
+        added: 'Jul 29, 2020',
+        category: 'filters',
+        description: 'CSS Filter Generator',
+        link: 'http://www.cssfiltergenerator.com/',
+        new: false
+    },
+    {
+        added: 'Jul 29, 2020',
+        category: 'filters',
+        description: 'Filter CSS Generator',
+        link: 'https://cssgenerator.org/filter-css-generator.html',
+        new: false
+    },
+    // Gradients
+    {
+        added: 'Jul 9, 2020',
+        category: 'gradients',
+        description: 'CSS Gradient',
+        link: 'https://cssgradient.io/',
+        new: false
+    },
+    {
+        added: 'Jul 9, 2020',
+        category: 'gradients',
+        description: 'Grabient',
+        link: 'https://www.grabient.com/',
+        new: false
+    },
+    {
+        added: 'Jul 9, 2020',
+        category: 'gradients',
+        description: 'Multicolor Gradients',
+        link: 'https://gradienta.io/',
+        new: false
+    },
+    // Grid
+    {
+        added: 'Jul 9, 2020',
+        category: 'grid',
+        description: 'Layoutit! CSS Grid Generator',
+        link: 'https://grid.layoutit.com/',
+        new: false
+    },
+    {
+        added: 'Jul 9, 2020',
+        category: 'grid',
+        description: 'cssgr.id - CSS Grid Generator',
+        link: 'https://cssgr.id/',
+        new: false
+    },
+    // Inspirations
+    {
+        added: 'Apr 14, 2021',
+        category: 'inspirations',
+        description: 'UI Garage',
+        link: 'https://uigarage.net/',
+        new: false
+    },
+    {
+        added: 'Jul 9, 2020',
+        category: 'inspirations',
+        description: 'Web Design Inspiration',
+        link: 'https://www.webdesign-inspiration.com/',
+        new: false
+    },
+    {
+        added: 'Jul 9, 2020',
+        category: 'inspirations',
+        description: 'Behance',
+        link: 'https://uigarage.net/',
+        new: false
+    },
+    {
+        added: 'Jul 9, 2020',
+        category: 'inspirations',
+        description: 'dribbble',
+        link: 'https://dribbble.com/',
+        new: false
+    },
+    // JS Libraries
+    {
+        added: 'Dec 22, 2020',
+        category: 'js-libraries',
+        description: 'SwiperJS',
+        link: 'https://swiperjs.com/',
+        new: false
+    },
+    {
+        added: 'Dec 21, 2020',
+        category: 'js-libraries',
+        description: 'ztext.js',
+        link: 'https://bennettfeely.com/ztext/',
+        new: false
+    },
+    // JS Tools
+    {
+        added: 'Apr 5, 2021',
+        category: 'js-tools',
+        description: 'Public APIs library',
+        link: 'https://public-apis.io/',
+        new: false
+    },
+    {
+        added: 'Sep 6, 2020',
+        category: 'js-tools',
+        description: 'JavaScript Obfuscator Tool',
+        link: 'https://obfuscator.io/',
+        new: false
+    },
+    {
+        added: 'Jul 9, 2020',
+        category: 'js-tools',
+        description: 'iHateReges - Popular regex patterns',
+        link: 'https://ihateregex.io/',
+        new: false
+    },
+    {
+        added: 'Jul 9, 2020',
+        category: 'js-tools',
+        description: 'regex101 - Build and test your regex',
+        link: 'https://regex101.com/',
+        new: false
+    },
+    {
+        added: 'Jul 9, 2020',
+        category: 'js-tools',
+        description: 'JS event keycodes',
+        link: 'http://keycode.info/',
+        new: false
+    },
+    // Other
+    {
+        added: 'Jul 9, 2020',
+        category: 'other',
+        description: 'CoolText - Graphics Generator',
+        link: 'https://cooltext.com/',
         new: false
     },
     // SVGs
@@ -432,102 +559,6 @@ db = [
         category: 'svg',
         description: 'Icon Transition Generator',
         link: 'https://nucleoapp.com/tool/icon-transition',
-        new: false
-    },
-    // JS Tools
-    {
-        added: 'Apr 5, 2021',
-        category: 'js-tools',
-        description: 'Public APIs library',
-        link: 'https://public-apis.io/',
-        new: false
-    },
-    {
-        added: 'Sep 6, 2020',
-        category: 'js-tools',
-        description: 'JavaScript Obfuscator Tool',
-        link: 'https://obfuscator.io/',
-        new: false
-    },
-    {
-        added: 'Jul 9, 2020',
-        category: 'js-tools',
-        description: 'iHateReges - Popular regex patterns',
-        link: 'https://ihateregex.io/',
-        new: false
-    },
-    {
-        added: 'Jul 9, 2020',
-        category: 'js-tools',
-        description: 'regex101 - Build and test your regex',
-        link: 'https://regex101.com/',
-        new: false
-    },
-    {
-        added: 'Jul 9, 2020',
-        category: 'js-tools',
-        description: 'JS event keycodes',
-        link: 'http://keycode.info/',
-        new: false
-    },
-    // JS Libraries
-    {
-        added: 'Dec 22, 2020',
-        category: 'js-libraries',
-        description: 'SwiperJS',
-        link: 'https://swiperjs.com/',
-        new: false
-    },
-    {
-        added: 'Dec 21, 2020',
-        category: 'js-libraries',
-        description: 'ztext.js',
-        link: 'https://bennettfeely.com/ztext/',
-        new: false
-    },
-    // Audit Tools
-    {
-        added: 'Mar 24, 2021',
-        category: 'audit',
-        description: 'Yellow Lab Tools - Speed up heavy web pages',
-        link: 'https://yellowlab.tools/',
-        new: false
-    },
-    // Accessibility
-    {
-        added: 'Nov 14, 2020',
-        category: 'accessibility',
-        description: 'Color.review - Contrast ratio with visualizer',
-        link: 'https://color.review/',
-        new: false
-    },
-    {
-        added: 'Jul 9, 2020',
-        category: 'accessibility',
-        description: 'Colorable - Check contrast ratio',
-        link: 'https://colorable.jxnblk.com/',
-        new: false
-    },
-    {
-        added: 'Jul 9, 2020',
-        category: 'accessibility',
-        description: 'WebAIM - Check contast ratio',
-        link: 'https://webaim.org/resources/contrastchecker/',
-        new: false
-    },
-    {
-        added: 'Jul 9, 2020',
-        category: 'accessibility',
-        description: 'Accessibility Insights - Accessibility testing app',
-        link: 'https://accessibilityinsights.io/',
-        new: false
-    },
-    // Other
-    {
-        added: 'Jul 9, 2020',
-        category: 'other',
-        description: 'CoolText - Graphics Generator',
-        link: 'https://cooltext.com/',
         new: false
     },
 ]
