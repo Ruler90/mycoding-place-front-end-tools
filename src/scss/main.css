@@ -517,7 +517,7 @@ footer {
 }
 @media (max-width: 600px) {
   .mcp-tile__text {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
