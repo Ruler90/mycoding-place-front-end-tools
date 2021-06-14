@@ -1,6 +1,13 @@
 db = [
     // Latest
     {
+        added: 'Jun 14, 2021',
+        category: 'cheatsheets',
+        description: 'Unicode Character Table - emoji, icons etc.',
+        link: 'https://unicode-table.com/en/emoji/',
+        new: true
+    },
+    {
         added: 'May 19, 2021',
         category: 'cheatsheets',
         description: 'StatCounter Global Stats',
@@ -26,27 +33,6 @@ db = [
         category: 'css-tools',
         description: 'CSS Accordion Slider Generator',
         link: 'https://accordionslider.com/',
-        new: true
-    },
-    {
-        added: 'May 12, 2021',
-        category: 'grid',
-        description: 'CSS Grid and grid-areas generator',
-        link: 'https://cssgrid-generator.netlify.app/',
-        new: true
-    },
-    {
-        added: 'May 12, 2021',
-        category: 'animations',
-        description: 'Animista - CSS Animations on Demand',
-        link: 'https://animista.net/',
-        new: true
-    },
-    {
-        added: 'May 10, 2021',
-        category: 'colors',
-        description: 'Khorma - AI-generated color palettes',
-        link: 'http://khroma.co/',
         new: true
     },
     // Accessibility
@@ -87,6 +73,13 @@ db = [
         new: false
     },
     // Animations
+    {
+        added: 'May 12, 2021',
+        category: 'animations',
+        description: 'Animista - CSS Animations on Demand',
+        link: 'https://animista.net/',
+        new: false
+    },
     {
         added: 'Jul 9, 2020',
         category: 'animations',
@@ -202,6 +195,13 @@ db = [
         new: false
     },
     // Colors
+    {
+        added: 'May 10, 2021',
+        category: 'colors',
+        description: 'Khorma - AI-generated color palettes',
+        link: 'http://khroma.co/',
+        new: false
+    },
     {
         added: 'Mar 8, 2021',
         category: 'colors',
@@ -395,6 +395,13 @@ db = [
         new: false
     },
     // Grid
+    {
+        added: 'May 12, 2021',
+        category: 'grid',
+        description: 'CSS Grid and grid-areas generator',
+        link: 'https://cssgrid-generator.netlify.app/',
+        new: false
+    },
     {
         added: 'Jul 9, 2020',
         category: 'grid',
