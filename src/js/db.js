@@ -1,6 +1,13 @@
 db = [
     // Latest
     {
+        added: 'Jun 18, 2021',
+        category: 'icons',
+        description: 'Free, open source health icons',
+        link: 'https://healthicons.org/',
+        new: true
+    },
+    {
         added: 'Jun 14, 2021',
         category: 'cheatsheets',
         description: 'Unicode Character Table - emoji, icons etc.',
@@ -16,7 +23,7 @@ db = [
     },
     {
         added: 'May 19, 2021',
-        category: 'svg',
+        category: 'icons',
         description: 'Iconoir - Open Source Icons Library',
         link: 'https://iconoir.com/',
         new: true
@@ -416,6 +423,42 @@ db = [
         link: 'https://cssgr.id/',
         new: false
     },
+    // Icons
+    {
+        added: 'Nov 21, 2020',
+        category: 'icons',
+        description: 'SVGBox - API for web icons',
+        link: 'https://svgbox.net/',
+        new: false
+    },
+    {
+        added: 'Oct 22, 2020',
+        category: 'icons',
+        description: 'Free Favicon Maker',
+        link: 'https://formito.com/tools/favicon',
+        new: false
+    },
+    {
+        added: 'Jul 18, 2020',
+        category: 'icons',
+        description: '1000+ fully customizable free SVG icons',
+        link: 'https://tablericons.com/',
+        new: false
+    },
+    {
+        added: 'Jul 9, 2020',
+        category: 'icons',
+        description: 'Quick customizable icons for your projects',
+        link: 'https://iconsvg.xyz/',
+        new: false
+    },
+    {
+        added: 'Jul 9, 2020',
+        category: 'icons',
+        description: 'Icon Transition Generator',
+        link: 'https://nucleoapp.com/tool/icon-transition',
+        new: false
+    },
     // Inspirations
     {
         added: 'Apr 14, 2021',
@@ -520,20 +563,6 @@ db = [
         new: false
     },
     {
-        added: 'Nov 21, 2020',
-        category: 'svg',
-        description: 'SVGBox - API for web icons',
-        link: 'https://svgbox.net/',
-        new: false
-    },
-    {
-        added: 'Oct 22, 2020',
-        category: 'svg',
-        description: 'Free Favicon Maker',
-        link: 'https://formito.com/tools/favicon',
-        new: false
-    },
-    {
         added: 'Sep 14, 2020',
         category: 'svg',
         description: 'Create SVG blobs',
@@ -545,27 +574,6 @@ db = [
         category: 'svg',
         description: 'Make SVG waves',
         link: 'https://getwaves.io/',
-        new: false
-    },
-    {
-        added: 'Jul 18, 2020',
-        category: 'svg',
-        description: '1000+ fully customizable free SVG icons',
-        link: 'https://tablericons.com/',
-        new: false
-    },
-    {
-        added: 'Jul 9, 2020',
-        category: 'svg',
-        description: 'Quick customizable icons for your projects',
-        link: 'https://iconsvg.xyz/',
-        new: false
-    },
-    {
-        added: 'Jul 9, 2020',
-        category: 'svg',
-        description: 'Icon Transition Generator',
-        link: 'https://nucleoapp.com/tool/icon-transition',
         new: false
     },
 ]
