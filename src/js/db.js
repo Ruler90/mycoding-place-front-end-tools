@@ -1,6 +1,13 @@
 db = [
     // Latest
     {
+        added: 'Jul 12, 2021',
+        category: 'other',
+        description: 'Free image placeholder service',
+        link: 'https://placeholder.com/',
+        new: true
+    },
+    {
         added: 'Jun 18, 2021',
         category: 'icons',
         description: 'Free, open source health icons',
@@ -12,34 +19,6 @@ db = [
         category: 'cheatsheets',
         description: 'Unicode Character Table - emoji, icons etc.',
         link: 'https://unicode-table.com/en/emoji/',
-        new: true
-    },
-    {
-        added: 'May 19, 2021',
-        category: 'cheatsheets',
-        description: 'StatCounter Global Stats',
-        link: 'https://gs.statcounter.com/',
-        new: true
-    },
-    {
-        added: 'May 19, 2021',
-        category: 'icons',
-        description: 'Iconoir - Open Source Icons Library',
-        link: 'https://iconoir.com/',
-        new: true
-    },
-    {
-        added: 'May 19, 2021',
-        category: 'js-tools',
-        description: 'formsubmit.io - Handle contact forms without backend',
-        link: 'https://formsubmit.io/',
-        new: true
-    },
-    {
-        added: 'May 19, 2021',
-        category: 'css-tools',
-        description: 'CSS Accordion Slider Generator',
-        link: 'https://accordionslider.com/',
         new: true
     },
     // Accessibility
@@ -131,6 +110,13 @@ db = [
         new: false
     },
     // Cheatsheets
+    {
+        added: 'May 19, 2021',
+        category: 'cheatsheets',
+        description: 'StatCounter Global Stats',
+        link: 'https://gs.statcounter.com/',
+        new: false
+    },
     {
         added: 'Sep 2, 2020',
         category: 'cheatsheets',
@@ -288,6 +274,13 @@ db = [
     },
     // CSS Tools
     {
+        added: 'May 19, 2021',
+        category: 'css-tools',
+        description: 'CSS Accordion Slider Generator',
+        link: 'https://accordionslider.com/',
+        new: false
+    },
+    {
         added: 'Mar 8, 2021',
         category: 'css-tools',
         description: 'Fancy border-radius',
@@ -425,6 +418,13 @@ db = [
     },
     // Icons
     {
+        added: 'May 19, 2021',
+        category: 'icons',
+        description: 'Iconoir - Open Source Icons Library',
+        link: 'https://iconoir.com/',
+        new: false
+    },
+    {
         added: 'Nov 21, 2020',
         category: 'icons',
         description: 'SVGBox - API for web icons',
@@ -504,6 +504,13 @@ db = [
         new: false
     },
     // JS Tools
+    {
+        added: 'May 19, 2021',
+        category: 'js-tools',
+        description: 'formsubmit.io - Handle contact forms without backend',
+        link: 'https://formsubmit.io/',
+        new: false
+    },
     {
         added: 'Apr 5, 2021',
         category: 'js-tools',
