@@ -1,6 +1,13 @@
 db = [
     // Latest
     {
+        added: 'Jul 13, 2021',
+        category: 'other',
+        description: 'Squoosh.app - compress your images',
+        link: 'https://squoosh.app/',
+        new: true
+    },
+    {
         added: 'Jul 12, 2021',
         category: 'other',
         description: 'Free image placeholder service',
