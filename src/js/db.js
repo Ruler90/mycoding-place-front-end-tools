@@ -1,6 +1,13 @@
 db = [
     // Latest
     {
+        added: 'Aug 05, 2021',
+        category: 'gradients',
+        description: 'GradientArt - Advanced gradient editor',
+        link: 'https://gra.dient.art/',
+        new: true
+    },
+    {
         added: 'Jul 13, 2021',
         category: 'other',
         description: 'Squoosh.app - compress your images',
@@ -12,20 +19,6 @@ db = [
         category: 'other',
         description: 'Free image placeholder service',
         link: 'https://placeholder.com/',
-        new: true
-    },
-    {
-        added: 'Jun 18, 2021',
-        category: 'icons',
-        description: 'Free, open source health icons',
-        link: 'https://healthicons.org/',
-        new: true
-    },
-    {
-        added: 'Jun 14, 2021',
-        category: 'cheatsheets',
-        description: 'Unicode Character Table - emoji, icons etc.',
-        link: 'https://unicode-table.com/en/emoji/',
         new: true
     },
     // Accessibility
@@ -117,6 +110,13 @@ db = [
         new: false
     },
     // Cheatsheets
+    {
+        added: 'Jun 14, 2021',
+        category: 'cheatsheets',
+        description: 'Unicode Character Table - emoji, icons etc.',
+        link: 'https://unicode-table.com/en/emoji/',
+        new: false
+    },
     {
         added: 'May 19, 2021',
         category: 'cheatsheets',
@@ -424,6 +424,13 @@ db = [
         new: false
     },
     // Icons
+    {
+        added: 'Jun 18, 2021',
+        category: 'icons',
+        description: 'Free, open source health icons',
+        link: 'https://healthicons.org/',
+        new: false
+    },
     {
         added: 'May 19, 2021',
         category: 'icons',
