@@ -1,6 +1,20 @@
 db = [
     // Latest
     {
+        added: 'Aug 16, 2021',
+        category: 'cheatsheets',
+        description: 'mydevice.io - Check your device capabilities',
+        link: 'https://www.mydevice.io/',
+        new: true
+    },
+    {
+        added: 'Aug 16, 2021',
+        category: 'backgrounds',
+        description: 'BGJar - SVG background generator',
+        link: 'https://bgjar.com/',
+        new: true
+    },
+    {
         added: 'Aug 05, 2021',
         category: 'gradients',
         description: 'GradientArt - Advanced gradient editor',
