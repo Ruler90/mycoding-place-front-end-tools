@@ -1,6 +1,13 @@
 db = [
     // Latest
     {
+        added: 'Aug 17, 2021',
+        category: 'other',
+        description: 'carbon - Create images of your source code',
+        link: 'https://carbon.now.sh/',
+        new: true
+    },
+    {
         added: 'Aug 16, 2021',
         category: 'cheatsheets',
         description: 'mydevice.io - Check your device capabilities',
