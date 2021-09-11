@@ -472,8 +472,10 @@ footer {
   position: relative;
   transition: transform 300ms ease;
 }
-.mcp-tile__link:hover, .mcp-tile__link:focus {
-  transform: translateY(-10px);
+@media (hover: hover) {
+  .mcp-tile__link:hover, .mcp-tile__link:focus {
+    transform: translateY(-10px);
+  }
 }
 @media (max-width: 600px) {
   .mcp-tile__link {

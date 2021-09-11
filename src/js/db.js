@@ -28,20 +28,6 @@ db = [
         link: 'https://gra.dient.art/',
         new: true
     },
-    {
-        added: 'Jul 13, 2021',
-        category: 'other',
-        description: 'Squoosh.app - compress your images',
-        link: 'https://squoosh.app/',
-        new: true
-    },
-    {
-        added: 'Jul 12, 2021',
-        category: 'other',
-        description: 'Free image placeholder service',
-        link: 'https://placeholder.com/',
-        new: true
-    },
     // Accessibility
     {
         added: 'Nov 14, 2020',
@@ -582,6 +568,20 @@ db = [
         new: false
     },
     // Other
+    {
+        added: 'Jul 13, 2021',
+        category: 'other',
+        description: 'Squoosh.app - compress your images',
+        link: 'https://squoosh.app/',
+        new: false
+    },
+    {
+        added: 'Jul 12, 2021',
+        category: 'other',
+        description: 'Free image placeholder service',
+        link: 'https://placeholder.com/',
+        new: false
+    },
     {
         added: 'Jul 9, 2020',
         category: 'other',

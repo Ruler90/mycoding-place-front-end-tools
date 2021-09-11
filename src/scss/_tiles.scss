@@ -57,9 +57,12 @@
     position: relative;
     transition: transform 300ms ease;
 
-    &:hover,
-    &:focus {
-        transform: translateY(-10px);
+    @media (hover: hover) {
+
+        &:hover,
+        &:focus {
+            transform: translateY(-10px);
+        }
     }
 
     @media (max-width: 600px) {
