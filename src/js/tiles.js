@@ -24,6 +24,16 @@ const tileEventsHandler = (tile) => {
     })
 }
 
+const tileBlurHandler = (tile) => {
+    tile.addEventListener('click', (event) => {
+        if (event.target.classList.contains('mcp-tile__link')) {
+            event.target.blur();
+        } else {
+            event.target.closest('.mcp-tile__link').blur();
+        }
+    })
+}
+
 const createTile = (item, wrapper) => {
     const tile = document.createElement('li');
     tile.setAttribute('class',
@@ -34,6 +44,7 @@ const createTile = (item, wrapper) => {
     const tileData = tileDataHandler(item.link, item.description, item.added);
     tile.innerHTML = tileData;
     tileEventsHandler(tile);
+    tileBlurHandler(tile);
     wrapper.appendChild(tile);
     setTimeout(() => {
         tile.classList.remove('mcp-tile--fade-out')
