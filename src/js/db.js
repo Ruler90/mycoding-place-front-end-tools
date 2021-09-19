@@ -1,6 +1,13 @@
 db = [
     // Latest
     {
+        added: 'Sep 19, 2021',
+        category: 'other',
+        description: 'Doodle Ipsum - Lorem ipsum of illustrations',
+        link: 'https://doodleipsum.com/',
+        new: true
+    },
+    {
         added: 'Aug 17, 2021',
         category: 'other',
         description: 'carbon - Create images of your source code',
@@ -19,13 +26,6 @@ db = [
         category: 'backgrounds',
         description: 'BGJar - SVG background generator',
         link: 'https://bgjar.com/',
-        new: true
-    },
-    {
-        added: 'Aug 05, 2021',
-        category: 'gradients',
-        description: 'GradientArt - Advanced gradient editor',
-        link: 'https://gra.dient.art/',
         new: true
     },
     // Accessibility
@@ -387,6 +387,13 @@ db = [
         new: false
     },
     // Gradients
+    {
+        added: 'Aug 05, 2021',
+        category: 'gradients',
+        description: 'GradientArt - Advanced gradient editor',
+        link: 'https://gra.dient.art/',
+        new: false
+    },
     {
         added: 'Jul 9, 2020',
         category: 'gradients',
