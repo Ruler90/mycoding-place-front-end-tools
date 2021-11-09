@@ -25,13 +25,16 @@ const tileEventsHandler = (tile) => {
 }
 
 const tileBlurHandler = (tile) => {
-    tile.addEventListener('click', (event) => {
+
+    const blurAfterClick = (event) => {
         if (event.target.classList.contains('mcp-tile__link')) {
             event.target.blur();
         } else {
             event.target.closest('.mcp-tile__link').blur();
         }
-    })
+    } 
+    tile.addEventListener('click', () => blurAfterClick(event))
+    tile.addEventListener('auxclick', () => blurAfterClick(event))
 }
 
 const createTile = (item, wrapper) => {
