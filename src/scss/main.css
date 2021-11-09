@@ -425,7 +425,7 @@ footer {
   width: max-content;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 32px;
+  gap: 32px;
   position: relative;
   z-index: 2;
 }
@@ -441,7 +441,7 @@ footer {
 }
 @media (max-width: 600px) {
   .mcp-tiles {
-    grid-gap: 32px 8px;
+    gap: 32px 8px;
   }
 }
 .mcp-tile {
