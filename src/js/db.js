@@ -1,31 +1,24 @@
 db = [
     // Latest
     {
+        added: 'Nov 09, 2021',
+        category: 'other',
+        description: 'Lorem.space - API for placeholder images',
+        link: 'https://lorem.space/',
+        new: true
+    },
+    {
+        added: 'Nov 09, 2021',
+        category: 'other',
+        description: 'Erase.bg - Remove background from images',
+        link: 'https://www.erase.bg/',
+        new: true
+    },
+    {
         added: 'Sep 19, 2021',
         category: 'other',
         description: 'Doodle Ipsum - Lorem ipsum of illustrations',
         link: 'https://doodleipsum.com/',
-        new: true
-    },
-    {
-        added: 'Aug 17, 2021',
-        category: 'other',
-        description: 'carbon - Create images of your source code',
-        link: 'https://carbon.now.sh/',
-        new: true
-    },
-    {
-        added: 'Aug 16, 2021',
-        category: 'cheatsheets',
-        description: 'mydevice.io - Check your device capabilities',
-        link: 'https://www.mydevice.io/',
-        new: true
-    },
-    {
-        added: 'Aug 16, 2021',
-        category: 'backgrounds',
-        description: 'BGJar - SVG background generator',
-        link: 'https://bgjar.com/',
         new: true
     },
     // Accessibility
@@ -89,6 +82,13 @@ db = [
     },
     // Backgrounds
     {
+        added: 'Aug 16, 2021',
+        category: 'backgrounds',
+        description: 'BGJar - SVG background generator',
+        link: 'https://bgjar.com/',
+        new: false
+    },
+    {
         added: 'Nov 17, 2020',
         category: 'backgrounds',
         description: 'SVG Backgrounds',
@@ -117,6 +117,13 @@ db = [
         new: false
     },
     // Cheatsheets
+    {
+        added: 'Aug 16, 2021',
+        category: 'cheatsheets',
+        description: 'mydevice.io - Check your device capabilities',
+        link: 'https://www.mydevice.io/',
+        new: false
+    },
     {
         added: 'Jun 14, 2021',
         category: 'cheatsheets',
@@ -575,6 +582,13 @@ db = [
         new: false
     },
     // Other
+    {
+        added: 'Aug 17, 2021',
+        category: 'other',
+        description: 'carbon - Create images of your source code',
+        link: 'https://carbon.now.sh/',
+        new: false
+    },
     {
         added: 'Jul 13, 2021',
         category: 'other',
