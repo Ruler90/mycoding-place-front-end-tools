@@ -32,7 +32,7 @@ const tileBlurHandler = (tile) => {
         } else {
             event.target.closest('.mcp-tile__link').blur();
         }
-    } 
+    }
     tile.addEventListener('click', () => blurAfterClick(event))
     tile.addEventListener('auxclick', () => blurAfterClick(event))
 }
@@ -52,6 +52,20 @@ const createTile = (item, wrapper) => {
     setTimeout(() => {
         tile.classList.remove('mcp-tile--fade-out')
     }, 50)
+}
+
+let db = [];
+
+const getDatabase = () => {
+    fetch('/src/js/database.json')
+        .then(response => {
+            if (response.status === 200) {
+                return response.json()
+                    .then(data => db = data.database)
+            } else {
+                alert('Couldn\'t load the database. Please reload the page.');
+            }
+        })
 }
 
 const generateLatestTiles = () => {
@@ -147,7 +161,8 @@ const generateInitialTiles = () => {
 }
 
 window.onload = () => {
-    generateLatestTiles();
+    getDatabase();
+    setTimeout(generateLatestTiles, 100);
     categoryBtnsHandler();
     generateInitialTiles();
 }
