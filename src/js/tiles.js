@@ -162,7 +162,7 @@ const generateInitialTiles = () => {
 
 window.onload = () => {
     getDatabase();
-    setTimeout(generateLatestTiles, 100);
+    setTimeout(generateLatestTiles, 300);
     categoryBtnsHandler();
     generateInitialTiles();
 }
