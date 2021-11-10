@@ -56,18 +56,6 @@ const createTile = (item, wrapper) => {
 
 let db = [];
 
-const getDatabase = () => {
-    fetch('/src/js/database.json')
-        .then(response => {
-            if (response.status === 200) {
-                return response.json()
-                    .then(data => db = data.database)
-            } else {
-                alert('Couldn\'t load the database. Please reload the page.');
-            }
-        })
-}
-
 const generateLatestTiles = () => {
     const tilesWrapper = document.querySelector('.mcp-tiles--latest');
     db.forEach(item => {
@@ -160,9 +148,23 @@ const generateInitialTiles = () => {
     preventInitialScrollOnMobile();
 }
 
+const initializeTiles = () => {
+    fetch('/src/js/database.json')
+        .then(response => {
+            if (response.status === 200) {
+                return response.json()
+                    .then(data => db = data.database)
+                    .then(() => {
+                        generateLatestTiles();
+                        categoryBtnsHandler();
+                        generateInitialTiles();
+                    })
+            } else {
+                alert('Couldn\'t load the database. Please reload the page.');
+            }
+        })
+}
+
 window.onload = () => {
-    getDatabase();
-    setTimeout(generateLatestTiles, 300);
-    categoryBtnsHandler();
-    generateInitialTiles();
+    initializeTiles();
 }
