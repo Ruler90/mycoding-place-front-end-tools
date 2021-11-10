@@ -1,6 +1,13 @@
 db = [
     // Latest
     {
+        added: 'Nov 10, 2021',
+        category: 'other',
+        description: 'Cleanup.pictures - Remove objects from the pictures',
+        link: 'https://cleanup.pictures/',
+        new: true
+    },
+    {
         added: 'Nov 09, 2021',
         category: 'other',
         description: 'Lorem.space - API for placeholder images',

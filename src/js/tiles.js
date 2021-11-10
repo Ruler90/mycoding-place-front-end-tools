@@ -1,3 +1,6 @@
+const database = '';
+console.log(db);
+
 const tileDataHandler = (link, description, added) => {
     const tileData = `
         <a class="mcp-tile__link" href="${link}" target="_blank" rel="noopener">
