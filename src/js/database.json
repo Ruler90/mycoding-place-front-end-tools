@@ -1,31 +1,31 @@
 {
     "database": [
         {
+            "added": "Dec 9, 2021",
+            "category": "gradients",
+            "description": "ffflux - SVG fluid gradient generator",
+            "link": "https://fffuel.co/ffflux/",
+            "new": true
+        },
+        {
+            "added": "Dec 9, 2021",
+            "category": "svg",
+            "description": "llline - SVG lines generator",
+            "link": "https://fffuel.co/llline/",
+            "new": true
+        },
+        {
+            "added": "Dec 9, 2021",
+            "category": "svg",
+            "description": "ssshape - SVG shapes generator",
+            "link": "https://fffuel.co/ssshape/",
+            "new": true
+        },
+        {
             "added": "Nov 10, 2021",
-            "category": "other",
+            "category": "images",
             "description": "Cleanup.pictures - Remove objects from the pictures",
             "link": "https://cleanup.pictures/",
-            "new": true
-        },
-        {
-            "added": "Nov 09, 2021",
-            "category": "other",
-            "description": "Lorem.space - API for placeholder images",
-            "link": "https://lorem.space/",
-            "new": true
-        },
-        {
-            "added": "Nov 09, 2021",
-            "category": "other",
-            "description": "Erase.bg - Remove background from images",
-            "link": "https://www.erase.bg/",
-            "new": true
-        },
-        {
-            "added": "Sep 19, 2021",
-            "category": "other",
-            "description": "Doodle Ipsum - Lorem ipsum of illustrations",
-            "link": "https://doodleipsum.com/",
             "new": true
         },
         {
@@ -575,29 +575,50 @@
             "new": false
         },
         {
+            "added": "Nov 09, 2021",
+            "category": "images",
+            "description": "Lorem.space - API for placeholder images",
+            "link": "https://lorem.space/",
+            "new": false
+        },
+        {
+            "added": "Nov 09, 2021",
+            "category": "images",
+            "description": "Erase.bg - Remove background from images",
+            "link": "https://www.erase.bg/",
+            "new": false
+        },
+        {
+            "added": "Sep 19, 2021",
+            "category": "images",
+            "description": "Doodle Ipsum - Lorem ipsum of illustrations",
+            "link": "https://doodleipsum.com/",
+            "new": false
+        },
+        {
             "added": "Aug 17, 2021",
-            "category": "other",
+            "category": "images",
             "description": "carbon - Create images of your source code",
             "link": "https://carbon.now.sh/",
             "new": false
         },
         {
             "added": "Jul 13, 2021",
-            "category": "other",
+            "category": "images",
             "description": "Squoosh.app - compress your images",
             "link": "https://squoosh.app/",
             "new": false
         },
         {
             "added": "Jul 12, 2021",
-            "category": "other",
+            "category": "images",
             "description": "Free image placeholder service",
             "link": "https://placeholder.com/",
             "new": false
         },
         {
             "added": "Jul 9, 2020",
-            "category": "other",
+            "category": "images",
             "description": "CoolText - Graphics Generator",
             "link": "https://cooltext.com/",
             "new": false
