@@ -1,31 +1,31 @@
 {
     "database": [
         {
-            "added": "Dec 9, 2021",
+            "added": "Jan 18, 2022",
             "category": "gradients",
-            "description": "ffflux - SVG fluid gradient generator",
-            "link": "https://fffuel.co/ffflux/",
+            "description": "Josh Comeau's beautiful, lush gradients generator",
+            "link": "https://www.joshwcomeau.com/gradient-generator/",
             "new": true
         },
         {
-            "added": "Dec 9, 2021",
-            "category": "svg",
-            "description": "llline - SVG lines generator",
-            "link": "https://fffuel.co/llline/",
-            "new": true
-        },
-        {
-            "added": "Dec 9, 2021",
-            "category": "svg",
-            "description": "ssshape - SVG shapes generator",
-            "link": "https://fffuel.co/ssshape/",
-            "new": true
-        },
-        {
-            "added": "Nov 10, 2021",
+            "added": "Jan 18, 2022",
             "category": "images",
-            "description": "Cleanup.pictures - Remove objects from the pictures",
-            "link": "https://cleanup.pictures/",
+            "description": "TinyPNG - Reduce your images size",
+            "link": "https://tinypng.com/",
+            "new": true
+        },
+        {
+            "added": "Jan 18, 2022",
+            "category": "images",
+            "description": "SVG glitter text generator",
+            "link": "https://wh0.github.io/glitter/",
+            "new": true
+        },
+        {
+            "added": "Jan 18, 2022",
+            "category": "images",
+            "description": "Glitch image generator",
+            "link": "https://glitchyimage.com/",
             "new": true
         },
         {
@@ -393,6 +393,13 @@
             "new": false
         },
         {
+            "added": "Dec 9, 2021",
+            "category": "gradients",
+            "description": "ffflux - SVG fluid gradient generator",
+            "link": "https://fffuel.co/ffflux/",
+            "new": false
+        },
+        {
             "added": "Aug 05, 2021",
             "category": "gradients",
             "description": "GradientArt - Advanced gradient editor",
@@ -575,6 +582,13 @@
             "new": false
         },
         {
+            "added": "Nov 10, 2021",
+            "category": "images",
+            "description": "Cleanup.pictures - Remove objects from the pictures",
+            "link": "https://cleanup.pictures/",
+            "new": false
+        },
+        {
             "added": "Nov 09, 2021",
             "category": "images",
             "description": "Lorem.space - API for placeholder images",
@@ -621,6 +635,20 @@
             "category": "images",
             "description": "CoolText - Graphics Generator",
             "link": "https://cooltext.com/",
+            "new": false
+        },
+        {
+            "added": "Dec 9, 2021",
+            "category": "svg",
+            "description": "llline - SVG lines generator",
+            "link": "https://fffuel.co/llline/",
+            "new": false
+        },
+        {
+            "added": "Dec 9, 2021",
+            "category": "svg",
+            "description": "ssshape - SVG shapes generator",
+            "link": "https://fffuel.co/ssshape/",
             "new": false
         },
         {
