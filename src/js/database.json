@@ -1,31 +1,17 @@
 {
     "database": [
         {
-            "added": "Jan 18, 2022",
-            "category": "gradients",
-            "description": "Josh Comeau's beautiful, lush gradients generator",
-            "link": "https://www.joshwcomeau.com/gradient-generator/",
+            "added": "Feb 22, 2022",
+            "category": "css-tools",
+            "description": "Custom borders generator",
+            "link": "https://css-generators.com/custom-borders/",
             "new": true
         },
         {
-            "added": "Jan 18, 2022",
-            "category": "images",
-            "description": "TinyPNG - Reduce your images size",
-            "link": "https://tinypng.com/",
-            "new": true
-        },
-        {
-            "added": "Jan 18, 2022",
-            "category": "images",
-            "description": "SVG glitter text generator",
-            "link": "https://wh0.github.io/glitter/",
-            "new": true
-        },
-        {
-            "added": "Jan 18, 2022",
-            "category": "images",
-            "description": "Glitch image generator",
-            "link": "https://glitchyimage.com/",
+            "added": "Feb 22, 2022",
+            "category": "cheatsheets",
+            "description": "Clean Code principles for JavaScript",
+            "link": "https://github.com/ryanmcdermott/clean-code-javascript",
             "new": true
         },
         {
@@ -393,6 +379,13 @@
             "new": false
         },
         {
+            "added": "Jan 18, 2022",
+            "category": "gradients",
+            "description": "Josh Comeau's beautiful, lush gradients generator",
+            "link": "https://www.joshwcomeau.com/gradient-generator/",
+            "new": false
+        },
+        {
             "added": "Dec 9, 2021",
             "category": "gradients",
             "description": "ffflux - SVG fluid gradient generator",
@@ -579,6 +572,27 @@
             "category": "js-tools",
             "description": "JS event keycodes",
             "link": "http://keycode.info/",
+            "new": false
+        },
+        {
+            "added": "Jan 18, 2022",
+            "category": "images",
+            "description": "TinyPNG - Reduce your images size",
+            "link": "https://tinypng.com/",
+            "new": false
+        },
+        {
+            "added": "Jan 18, 2022",
+            "category": "images",
+            "description": "SVG glitter text generator",
+            "link": "https://wh0.github.io/glitter/",
+            "new": false
+        },
+        {
+            "added": "Jan 18, 2022",
+            "category": "images",
+            "description": "Glitch image generator",
+            "link": "https://glitchyimage.com/",
             "new": false
         },
         {
