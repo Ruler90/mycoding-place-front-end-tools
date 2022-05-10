@@ -1,31 +1,59 @@
 {
     "database": [
         {
-            "added": "Mar 22, 2022",
-            "category": "games",
-            "description": "CSS Diner - CSS selectors game",
-            "link": "https://flukeout.github.io/",
+            "added": "May 11, 2022",
+            "category": "colors",
+            "description": "Color name generator",
+            "link": "https://color-name-generator.com/",
             "new": true
         },
         {
-            "added": "Mar 22, 2022",
-            "category": "games",
-            "description": "Flexbox Froggy - CSS Flexbox game",
-            "link": "https://flexboxfroggy.com",
+            "added": "May 11, 2022",
+            "category": "css-tools",
+            "description": "Custom border generator",
+            "link": "https://css-generators.com/custom-corners/",
             "new": true
         },
         {
-            "added": "Mar 22, 2022",
+            "added": "May 11, 2022",
             "category": "games",
-            "description": "Grid Garden - CSS Grid game",
-            "link": "https://cssgridgarden.com",
+            "description": "Shape - A letter shaping game",
+            "link": "https://shape.method.ac/",
             "new": true
         },
         {
-            "added": "Mar 22, 2022",
+            "added": "May 11, 2022",
             "category": "games",
-            "description": "Hocus Focus - A keyboard accessibility game",
-            "link": "https://focus.hteumeuleu.com/",
+            "description": "Color - A color matching game",
+            "link": "https://color.method.ac/",
+            "new": true
+        },
+        {
+            "added": "May 11, 2022",
+            "category": "games",
+            "description": "The Bézier Game",
+            "link": "https://bezier.method.ac/",
+            "new": true
+        },
+        {
+            "added": "May 11, 2022",
+            "category": "games",
+            "description": "Kerntype - A letter spacing game",
+            "link": "https://type.method.ac/",
+            "new": true
+        },
+        {
+            "added": "May 11, 2022",
+            "category": "games",
+            "description": "Perfect paragraph - A Typography game",
+            "link": "https://betterwebtype.com/triangle/",
+            "new": true
+        },
+        {
+            "added": "May 11, 2022",
+            "category": "games",
+            "description": "It's centered that - A designer's eye game",
+            "link": "https://www.supremo.co.uk/designers-eye/",
             "new": true
         },
         {
@@ -425,6 +453,34 @@
             "category": "filters",
             "description": "Filter CSS Generator",
             "link": "https://cssgenerator.org/filter-css-generator.html",
+            "new": false
+        },
+        {
+            "added": "Mar 22, 2022",
+            "category": "games",
+            "description": "CSS Diner - CSS selectors game",
+            "link": "https://flukeout.github.io/",
+            "new": false
+        },
+        {
+            "added": "Mar 22, 2022",
+            "category": "games",
+            "description": "Flexbox Froggy - CSS Flexbox game",
+            "link": "https://flexboxfroggy.com",
+            "new": false
+        },
+        {
+            "added": "Mar 22, 2022",
+            "category": "games",
+            "description": "Grid Garden - CSS Grid game",
+            "link": "https://cssgridgarden.com",
+            "new": false
+        },
+        {
+            "added": "Mar 22, 2022",
+            "category": "games",
+            "description": "Hocus Focus - A keyboard accessibility game",
+            "link": "https://focus.hteumeuleu.com/",
             "new": false
         },
         {
