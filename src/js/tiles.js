@@ -54,11 +54,9 @@ const createTile = (item, wrapper) => {
     }, 50)
 }
 
-let db = [];
-
-const generateLatestTiles = () => {
+const generateLatestTiles = (database) => {
     const tilesWrapper = document.querySelector('.mcp-tiles--latest');
-    db.forEach(item => {
+    database.forEach(item => {
         if (item.new) {
             createTile(item, tilesWrapper);
         }
@@ -94,8 +92,8 @@ const removeCurrentTiles = (wrapper) => {
     })
 }
 
-const generateNewTiles = (category, wrapper) => {
-    db.forEach(item => {
+const generateNewTiles = (category, wrapper, database) => {
+    database.forEach(item => {
         if (item.category === category) {
             createTile(item, wrapper);
         }
@@ -108,29 +106,29 @@ const scrollToTilesOnMobile = () => {
     }
 }
 
-const swapCategoryTiles = (event, category) => {
+const swapCategoryTiles = (event, category, database) => {
     const tilesWrapper = document.querySelector('.mcp-tiles--category');
     if (!event.target.classList.contains('mcp-categories__item--active')) {
         btnsStateHandler(event);
         removeCurrentTiles(tilesWrapper);
         setTimeout(() => {
-            generateNewTiles(category, tilesWrapper);
+            generateNewTiles(category, tilesWrapper, database);
         }, 400)
         scrollToTilesOnMobile()
     }
 }
 
-const categoryBtnsHandler = () => {
+const categoryBtnsHandler = (database) => {
     const btns = document.querySelectorAll('.mcp-categories__item');
     btns.forEach(item => {
         const category = item.getAttribute('data-cat');
         item.addEventListener('click', (event) => {
-            swapCategoryTiles(event, category);
+            swapCategoryTiles(event, category, database);
         })
         item.addEventListener('keydown', (event) => {
             if (event.code === 'Enter' || event.code === 'Space') {
                 event.preventDefault();
-                swapCategoryTiles(event, category);
+                swapCategoryTiles(event, category, database);
             }
         })
     })
@@ -148,21 +146,23 @@ const generateInitialTiles = () => {
     preventInitialScrollOnMobile();
 }
 
-const initializeTiles = () => {
-    fetch('/src/js/database.json')
-        .then(response => {
-            if (response.status === 200) {
-                return response.json()
-                    .then(data => db = data.database)
-                    .then(() => {
-                        generateLatestTiles();
-                        categoryBtnsHandler();
-                        generateInitialTiles();
-                    })
-            } else {
-                alert('Couldn\'t load the database. Please reload the page.');
-            }
-        })
+const getDatabase = async () => {
+    const response = await fetch('/src/js/database.json');
+    if (response.status === 200) {
+        const data = await response.json();
+        return data.database;
+    }
+}
+
+const initializeTiles = async () => {
+    const database = await getDatabase();
+    if (database) {
+        generateLatestTiles(database);
+        categoryBtnsHandler(database);
+        generateInitialTiles();
+    } else {
+        alert('Couldn\'t load the database. Please reload the page.');
+    }
 }
 
 window.onload = () => {
