@@ -8,8 +8,7 @@ const tileDataHandler = (link, description, added) => {
 
             <p class="mcp-tile__text">${description}</p>
 
-            <p class="mcp-tile__date">Added on ${added}</p>
-
+            <p class="mcp-tile__date">Added: <time datetime="${added}">${added}</time></p>
         </a>
     `;
     return tileData;
