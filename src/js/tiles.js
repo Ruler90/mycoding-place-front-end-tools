@@ -99,10 +99,8 @@ const generateNewTiles = (category, wrapper, database) => {
     })
 }
 
-const scrollToTilesOnMobile = () => {
-    if (window.innerWidth < 450) {
-        document.querySelector('.mcp-section--category').scrollIntoView();
-    }
+const scrollTilesIntoView = () => {
+    document.querySelector('.mcp-section--category').scrollIntoView();
 }
 
 const swapCategoryTiles = (event, category, database) => {
@@ -110,10 +108,8 @@ const swapCategoryTiles = (event, category, database) => {
     if (!event.target.classList.contains('mcp-categories__item--active')) {
         btnsStateHandler(event);
         removeCurrentTiles(tilesWrapper);
-        setTimeout(() => {
-            generateNewTiles(category, tilesWrapper, database);
-        }, 400)
-        scrollToTilesOnMobile()
+        setTimeout(() => generateNewTiles(category, tilesWrapper, database), 400);
+        scrollTilesIntoView()
     }
 }
 
@@ -133,16 +129,14 @@ const categoryBtnsHandler = (database) => {
     })
 }
 
-const preventInitialScrollOnMobile = () => {
-    if (window.innerWidth < 450) {
-        window.scrollTo(0, 0);
-    }
+const preventInitialScrollTilesIntoView = () => {
+    window.scrollTo(0, 0);
 }
 
 const generateInitialTiles = () => {
     const categoryBtn = document.querySelector('.mcp-categories__item');
     categoryBtn.click();
-    preventInitialScrollOnMobile();
+    preventInitialScrollTilesIntoView();
 }
 
 const getDatabase = async () => {
