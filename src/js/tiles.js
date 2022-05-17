@@ -47,19 +47,22 @@ const createTile = (item, wrapper) => {
     tile.innerHTML = tileData;
     tileEventsHandler(tile);
     tileBlurHandler(tile);
-    wrapper.appendChild(tile);
     setTimeout(() => {
         tile.classList.remove('mcp-tile--fade-out')
     }, 50)
+    return tile;
 }
 
 const generateLatestTiles = (database) => {
     const tilesWrapper = document.querySelector('.mcp-tiles--latest');
+    const tiles = new DocumentFragment;
     database.forEach(item => {
         if (item.new) {
-            createTile(item, tilesWrapper);
+            const tile = createTile(item, tilesWrapper);
+            tiles.appendChild(tile);
         }
     })
+    tilesWrapper.appendChild(tiles);
 }
 
 const btnsStateHandler = (event) => {
@@ -92,11 +95,15 @@ const removeCurrentTiles = (wrapper) => {
 }
 
 const generateNewTiles = (category, wrapper, database) => {
+    const tilesWrapper = wrapper;
+    const tiles = new DocumentFragment;
     database.forEach(item => {
         if (item.category === category) {
-            createTile(item, wrapper);
+            const tile = createTile(item, wrapper);
+            tiles.appendChild(tile);
         }
     })
+    tilesWrapper.appendChild(tiles);
 }
 
 const scrollTilesIntoView = () => {
