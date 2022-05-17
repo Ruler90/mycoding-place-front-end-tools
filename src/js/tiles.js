@@ -158,6 +158,4 @@ const initializeTiles = async () => {
     }
 }
 
-window.onload = () => {
-    initializeTiles();
-}
+window.addEventListener('load', initializeTiles);
