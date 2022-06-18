@@ -1,59 +1,31 @@
 {
     "database": [
         {
-            "added": "2022-05-11",
-            "category": "colors",
-            "description": "Color name generator",
-            "link": "https://color-name-generator.com/",
+            "added": "2022-06-18",
+            "category": "icons",
+            "description": "Pixel-art style icons",
+            "link": "https://pixelarticons.com/",
             "new": true
         },
         {
-            "added": "2022-05-11",
-            "category": "css-tools",
-            "description": "Custom border generator",
-            "link": "https://css-generators.com/custom-corners/",
+            "added": "2022-06-18",
+            "category": "icons",
+            "description": "Simply open source icons",
+            "link": "https://feathericons.com/",
             "new": true
         },
         {
-            "added": "2022-05-11",
+            "added": "2022-06-18",
+            "category": "js-tools",
+            "description": "apitracker.io - Discover useful APIs",
+            "link": "https://apitracker.io/",
+            "new": true
+        },
+        {
+            "added": "2022-06-18",
             "category": "games",
-            "description": "Shape - A letter shaping game",
-            "link": "https://shape.method.ac/",
-            "new": true
-        },
-        {
-            "added": "2022-05-11",
-            "category": "games",
-            "description": "Color - A color matching game",
-            "link": "https://color.method.ac/",
-            "new": true
-        },
-        {
-            "added": "2022-05-11",
-            "category": "games",
-            "description": "The Bézier Game",
-            "link": "https://bezier.method.ac/",
-            "new": true
-        },
-        {
-            "added": "2022-05-11",
-            "category": "games",
-            "description": "Kerntype - A letter spacing game",
-            "link": "https://type.method.ac/",
-            "new": true
-        },
-        {
-            "added": "2022-05-11",
-            "category": "games",
-            "description": "Perfect paragraph - A Typography game",
-            "link": "https://betterwebtype.com/triangle/",
-            "new": true
-        },
-        {
-            "added": "2022-05-11",
-            "category": "games",
-            "description": "It's centered that - A designer's eye game",
-            "link": "https://www.supremo.co.uk/designers-eye/",
+            "description": "Can't Unsee - Select the correct design",
+            "link": "https://cantunsee.space/",
             "new": true
         },
         {
@@ -246,6 +218,13 @@
             "new": false
         },
         {
+            "added": "2022-05-11",
+            "category": "colors",
+            "description": "Color name generator",
+            "link": "https://color-name-generator.com/",
+            "new": false
+        },
+        {
             "added": "2021-05-10",
             "category": "colors",
             "description": "Khorma - AI-generated color palettes",
@@ -327,6 +306,13 @@
             "category": "colors",
             "description": "Color wheel - Makes color combinations easy",
             "link": "https://www.canva.com/colors/color-wheel/",
+            "new": false
+        },
+        {
+            "added": "2022-05-11",
+            "category": "css-tools",
+            "description": "Custom border generator",
+            "link": "https://css-generators.com/custom-corners/",
             "new": false
         },
         {
@@ -453,6 +439,48 @@
             "category": "filters",
             "description": "Filter CSS Generator",
             "link": "https://cssgenerator.org/filter-css-generator.html",
+            "new": false
+        },
+        {
+            "added": "2022-05-11",
+            "category": "games",
+            "description": "Shape - A letter shaping game",
+            "link": "https://shape.method.ac/",
+            "new": false
+        },
+        {
+            "added": "2022-05-11",
+            "category": "games",
+            "description": "Color - A color matching game",
+            "link": "https://color.method.ac/",
+            "new": false
+        },
+        {
+            "added": "2022-05-11",
+            "category": "games",
+            "description": "The Bézier Game",
+            "link": "https://bezier.method.ac/",
+            "new": false
+        },
+        {
+            "added": "2022-05-11",
+            "category": "games",
+            "description": "Kerntype - A letter spacing game",
+            "link": "https://type.method.ac/",
+            "new": false
+        },
+        {
+            "added": "2022-05-11",
+            "category": "games",
+            "description": "Perfect paragraph - A Typography game",
+            "link": "https://betterwebtype.com/triangle/",
+            "new": false
+        },
+        {
+            "added": "2022-05-11",
+            "category": "games",
+            "description": "It's centered that - A designer's eye game",
+            "link": "https://www.supremo.co.uk/designers-eye/",
             "new": false
         },
         {
