@@ -1,6 +1,6 @@
 /* Category buttons styles */
 
-@use './variables'as *;
+@use './variables' as *;
 
 .mcp-categories {
     display: flex;
@@ -58,7 +58,7 @@
 
     &--pending {
         pointer-events: none;
-        
+
         &:hover,
         &:focus {
             box-shadow: none;

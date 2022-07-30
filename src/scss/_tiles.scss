@@ -1,6 +1,6 @@
 /* Tiles styles */
 
-@use './variables'as *;
+@use './variables' as *;
 
 .mcp-tiles {
     margin: 0 auto;
@@ -23,9 +23,11 @@
         gap: 32px 8px;
     }
 
-    &--latest {}
+    &--latest {
+    }
 
-    &--category {}
+    &--category {
+    }
 }
 
 .mcp-tile {
@@ -49,7 +51,7 @@
     width: 230px;
     height: 160px;
     padding: 16px;
-    background: linear-gradient(244.18deg, #404040 0%, #1A1A1A 100%);
+    background: linear-gradient(244.18deg, #404040 0%, #1a1a1a 100%);
     border: 5px solid $perfume;
     border-radius: 20px;
     display: grid;
@@ -58,7 +60,6 @@
     transition: transform 300ms ease;
 
     @media (hover: hover) {
-
         &:hover,
         &:focus {
             transform: translateY(-10px);
