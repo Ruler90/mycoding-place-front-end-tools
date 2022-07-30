@@ -1,110 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Free Front-End Tools for Web Developers and Designers 2021</title>
+        <meta
+            name="description"
+            content="Best 100% free resources, web apps and tools for web developers and designers. Get cheatsheets, CSS generators, create color palettes, gradients, SVGs and more."
+        />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Free Front-End Tools for Web Developers and Designers 2021</title>
-    <meta name="description"
-        content="Best 100% free resources, web apps and tools for web developers and designers. Get cheatsheets, CSS generators, create color palettes, gradients, SVGs and more.">
+        <meta property="og:title" content="Free Front-End Tools for Web Developers and Designers 2021" />
+        <meta
+            property="og:description"
+            content="Best 100% free resources, web apps and tools for web developers and designers. Get cheatsheets, CSS generators, create color palettes, gradients, SVGs and more."
+        />
+        <meta
+            property="og:image"
+            content="https://res.cloudinary.com/cliwebima/image/upload/v1622414200/front-end-tools/front-end-tools-preview.jpg"
+        />
+        <meta property="og:url" content="https://tools.mycoding.place/" />
 
-    <meta property="og:title" content="Free Front-End Tools for Web Developers and Designers 2021">
-    <meta property="og:description"
-        content="Best 100% free resources, web apps and tools for web developers and designers. Get cheatsheets, CSS generators, create color palettes, gradients, SVGs and more.">
-    <meta property="og:image"
-        content="https://res.cloudinary.com/cliwebima/image/upload/v1622414200/front-end-tools/front-end-tools-preview.jpg">
-    <meta property="og:url" content="https://tools.mycoding.place/">
+        <meta name="twitter:title" content="Free Front-End Tools for Web Developers and Designers 2021" />
+        <meta
+            name="twitter:description"
+            content="Best 100% free resources, web apps and tools for web developers and designers. Get cheatsheets, CSS generators, create color palettes, gradients, SVGs and more."
+        />
+        <meta
+            name="twitter:image"
+            content="https://res.cloudinary.com/cliwebima/image/upload/v1622414200/front-end-tools/front-end-tools-preview.jpg"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
 
-    <meta name="twitter:title" content="Free Front-End Tools for Web Developers and Designers 2021">
-    <meta name="twitter:description"
-        content="Best 100% free resources, web apps and tools for web developers and designers. Get cheatsheets, CSS generators, create color palettes, gradients, SVGs and more.">
-    <meta name="twitter:image"
-        content="https://res.cloudinary.com/cliwebima/image/upload/v1622414200/front-end-tools/front-end-tools-preview.jpg">
-    <meta name="twitter:card" content="summary_large_image">
+        <link rel="icon" type="image/svg+xml" href="./src/assets/svg/favicon.svg" />
 
-    <link rel="icon" type="image/svg+xml" href="./src/assets/svg/favicon.svg" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="./src/scss/main.css" />
+    </head>
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./src/scss/main.css">
-
-</head>
-
-<body>
-
-    <nav class="mcp-nav">
-        <ul class="mcp-nav__items">
-            <li class="mcp-nav__item">
-                <a class="mcp-nav__link" href="https://mycoding.place">Home</a>
-            </li>
-            <li class="mcp-nav__item">
-                <span class="mcp-nav__link mcp-nav__link--inactive">Front-End Tools</span>
-            </li>
-            <li class="mcp-nav__item">
-                <a class="mcp-nav__link" href="https://about.mycoding.place">About</a>
-            </li>
-        </ul>
-    </nav>
-
-    <main>
-
-        <header class="mcp-header">
-            <div class="mcp-header__text-wrapper">
-                <h1 class="mcp-header__text">Front-End Tools</h1>
-                <p class="mcp-header__description">
-                    A continuously updated list of free resources, web apps and tools that will help
-                    you in your designing and coding process.
-                </p>
-            </div>
-
-            <img class="mcp-header__tags-logo" src="./src/assets/svg/3d-tags.svg"
-                alt="image of the 3D opening and closing tag">
-        </header>
-
-        <section class="mcp-section mcp-section--latest">
-            <h2 class="mcp-section__header">Latest findings</h2>
-            <ul class="mcp-tiles mcp-tiles--latest"></ul>
-            <img class="mcp-circle-decor mcp-circle-decor--latest" src="./src/assets/svg/circle.svg"
-                alt="image of the circle contour in lavender gradient color">
-        </section>
-
-        <section class="mcp-section mcp-section--choose-category">
-            <h2 class="mcp-section__header">Choose a category</h2>
-            <ul class="mcp-categories">
-
-                <li class="mcp-categories__item" tabindex="0" data-cat="accessibility">Accessibility</li>
-                <li class="mcp-categories__item" tabindex="0" data-cat="audit">Audit</li>
-                <li class="mcp-categories__item" tabindex="0" data-cat="animations">Animations</li>
-                <li class="mcp-categories__item" tabindex="0" data-cat="backgrounds">Backgrounds</li>
-                <li class="mcp-categories__item" tabindex="0" data-cat="cheatsheets">Cheatsheets</li>
-                <li class="mcp-categories__item" tabindex="0" data-cat="colors">Colors</li>
-                <li class="mcp-categories__item" tabindex="0" data-cat="css-tools">CSS Tools</li>
-                <li class="mcp-categories__item" tabindex="0" data-cat="filters">Filters</li>
-                <li class="mcp-categories__item" tabindex="0" data-cat="games">Games</li>
-                <li class="mcp-categories__item" tabindex="0" data-cat="gradients">Gradients</li>
-                <li class="mcp-categories__item" tabindex="0" data-cat="icons">Icons</li>
-                <li class="mcp-categories__item" tabindex="0" data-cat="images">Images</li>
-                <li class="mcp-categories__item" tabindex="0" data-cat="inspirations">Inspirations</li>
-                <li class="mcp-categories__item" tabindex="0" data-cat="js-libraries">JS Libraries</li>
-                <li class="mcp-categories__item" tabindex="0" data-cat="js-tools">JS Tools</li>
-                <li class="mcp-categories__item" tabindex="0" data-cat="svg">SVGs</li>
-
+    <body>
+        <nav class="mcp-nav">
+            <ul class="mcp-nav__items">
+                <li class="mcp-nav__item">
+                    <a class="mcp-nav__link" href="https://mycoding.place">Home</a>
+                </li>
+                <li class="mcp-nav__item">
+                    <span class="mcp-nav__link mcp-nav__link--inactive">Front-End Tools</span>
+                </li>
+                <li class="mcp-nav__item">
+                    <a class="mcp-nav__link" href="https://about.mycoding.place">About</a>
+                </li>
             </ul>
-        </section>
+        </nav>
 
-        <section class="mcp-section mcp-section--category">
-            <ul class="mcp-tiles mcp-tiles--category"></ul>
-            <img class="mcp-circle-decor mcp-circle-decor--cat-tiles" src="./src/assets/svg/circle.svg"
-                alt="image of the big circle contour in lavender gradient color">
-        </section>
+        <main>
+            <header class="mcp-header">
+                <div class="mcp-header__text-wrapper">
+                    <h1 class="mcp-header__text">Front-End Tools</h1>
+                    <p class="mcp-header__description">
+                        A continuously updated list of free resources, web apps and tools that will help you in your
+                        designing and coding process.
+                    </p>
+                </div>
 
-    </main>
+                <img
+                    class="mcp-header__tags-logo"
+                    src="./src/assets/svg/3d-tags.svg"
+                    alt="image of the 3D opening and closing tag"
+                />
+            </header>
 
-    <footer>&copy; 2021-2022 Ruler90</footer>
+            <section class="mcp-section mcp-section--latest">
+                <h2 class="mcp-section__header">Latest findings</h2>
+                <ul class="mcp-tiles mcp-tiles--latest"></ul>
+                <img
+                    class="mcp-circle-decor mcp-circle-decor--latest"
+                    src="./src/assets/svg/circle.svg"
+                    alt="image of the circle contour in lavender gradient color"
+                />
+            </section>
 
-    <script src="./src/js/tiles.js"></script>
+            <section class="mcp-section mcp-section--choose-category">
+                <h2 class="mcp-section__header">Choose a category</h2>
+                <ul class="mcp-categories">
+                    <li class="mcp-categories__item" tabindex="0" data-cat="accessibility">Accessibility</li>
+                    <li class="mcp-categories__item" tabindex="0" data-cat="audit">Audit</li>
+                    <li class="mcp-categories__item" tabindex="0" data-cat="animations">Animations</li>
+                    <li class="mcp-categories__item" tabindex="0" data-cat="backgrounds">Backgrounds</li>
+                    <li class="mcp-categories__item" tabindex="0" data-cat="cheatsheets">Cheatsheets</li>
+                    <li class="mcp-categories__item" tabindex="0" data-cat="colors">Colors</li>
+                    <li class="mcp-categories__item" tabindex="0" data-cat="css-tools">CSS Tools</li>
+                    <li class="mcp-categories__item" tabindex="0" data-cat="filters">Filters</li>
+                    <li class="mcp-categories__item" tabindex="0" data-cat="games">Games</li>
+                    <li class="mcp-categories__item" tabindex="0" data-cat="gradients">Gradients</li>
+                    <li class="mcp-categories__item" tabindex="0" data-cat="icons">Icons</li>
+                    <li class="mcp-categories__item" tabindex="0" data-cat="images">Images</li>
+                    <li class="mcp-categories__item" tabindex="0" data-cat="inspirations">Inspirations</li>
+                    <li class="mcp-categories__item" tabindex="0" data-cat="js-libraries">JS Libraries</li>
+                    <li class="mcp-categories__item" tabindex="0" data-cat="js-tools">JS Tools</li>
+                    <li class="mcp-categories__item" tabindex="0" data-cat="svg">SVGs</li>
+                </ul>
+            </section>
 
-</body>
+            <section class="mcp-section mcp-section--category">
+                <ul class="mcp-tiles mcp-tiles--category"></ul>
+                <img
+                    class="mcp-circle-decor mcp-circle-decor--cat-tiles"
+                    src="./src/assets/svg/circle.svg"
+                    alt="image of the big circle contour in lavender gradient color"
+                />
+            </section>
+        </main>
 
+        <footer>&copy; 2021-2022 Ruler90</footer>
+
+        <script src="./src/js/tiles.js"></script>
+    </body>
 </html>

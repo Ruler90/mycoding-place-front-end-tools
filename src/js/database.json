@@ -1,31 +1,45 @@
 {
     "database": [
         {
-            "added": "2022-06-18",
-            "category": "icons",
-            "description": "Pixel-art style icons",
-            "link": "https://pixelarticons.com/",
+            "added": "2022-07-30",
+            "category": "css-tools",
+            "description": "CSS Shadow Gradients",
+            "link": "https://alvarotrigo.com/shadow-gradients/",
             "new": true
         },
         {
-            "added": "2022-06-18",
-            "category": "icons",
-            "description": "Feather Icons - Simple open source icons",
-            "link": "https://feathericons.com/",
+            "added": "2022-07-30",
+            "category": "svg",
+            "description": "app.heazy.studio - SVG assets generator",
+            "link": "https://app.heazy.studio/",
             "new": true
         },
         {
-            "added": "2022-06-18",
+            "added": "2022-07-30",
+            "category": "svg",
+            "description": "SVG spinners collection",
+            "link": "https://github.com/n3r4zzurr0/svg-spinners",
+            "new": true
+        },
+        {
+            "added": "2022-07-30",
             "category": "js-tools",
-            "description": "apitracker.io - Discover useful APIs",
-            "link": "https://apitracker.io/",
+            "description": "Random Data API",
+            "link": "https://random-data-api.com/documentation",
             "new": true
         },
         {
-            "added": "2022-06-18",
-            "category": "games",
-            "description": "Can't Unsee - Select the correct design game",
-            "link": "https://cantunsee.space/",
+            "added": "2022-07-30",
+            "category": "audit",
+            "description": "webpagetest.org - Website speed test",
+            "link": "https://www.webpagetest.org/",
+            "new": true
+        },
+        {
+            "added": "2022-07-30",
+            "category": "audit",
+            "description": "test2speed.com - Speed test - Poland main cities",
+            "link": "https://www.test2speed.com/",
             "new": true
         },
         {
@@ -442,6 +456,13 @@
             "new": false
         },
         {
+            "added": "2022-06-18",
+            "category": "games",
+            "description": "Can't Unsee - Select the correct design game",
+            "link": "https://cantunsee.space/",
+            "new": false
+        },
+        {
             "added": "2022-05-11",
             "category": "games",
             "description": "Shape - A letter shaping game",
@@ -554,6 +575,20 @@
             "new": false
         },
         {
+            "added": "2022-06-18",
+            "category": "icons",
+            "description": "Pixel-art style icons",
+            "link": "https://pixelarticons.com/",
+            "new": false
+        },
+        {
+            "added": "2022-06-18",
+            "category": "icons",
+            "description": "Feather Icons - Simple open source icons",
+            "link": "https://feathericons.com/",
+            "new": false
+        },
+        {
             "added": "2021-06-18",
             "category": "icons",
             "description": "Free, open source health icons",
@@ -642,6 +677,13 @@
             "category": "js-libraries",
             "description": "ztext.js",
             "link": "https://bennettfeely.com/ztext/",
+            "new": false
+        },
+        {
+            "added": "2022-06-18",
+            "category": "js-tools",
+            "description": "apitracker.io - Discover useful APIs",
+            "link": "https://apitracker.io/",
             "new": false
         },
         {
