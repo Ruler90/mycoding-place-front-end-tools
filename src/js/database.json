@@ -1,17 +1,31 @@
 {
     "database": [
         {
-            "added": "2022-09-20",
-            "category": "images",
-            "description": "Recoded - Create images or videos of your code",
-            "link": "https://recoded.netlify.app/",
+            "added": "2022-11-18",
+            "category": "js-tools",
+            "description": "Random.org - True Random Number Service",
+            "link": "https://www.random.org/",
             "new": true
         },
         {
-            "added": "2022-09-20",
-            "category": "js-tools",
-            "description": "JSON Crack - Visualize JSON data into graphs",
-            "link": "https://jsoncrack.com/",
+            "added": "2022-11-18",
+            "category": "audit",
+            "description": "treo.sh - Site speed report that uses Core Web Vitals",
+            "link": "https://treo.sh/sitespeed",
+            "new": true
+        },
+        {
+            "added": "2022-11-18",
+            "category": "audit",
+            "description": "GTmetrix.com - Website Performance Testing",
+            "link": "https://gtmetrix.com/",
+            "new": true
+        },
+        {
+            "added": "2022-11-18",
+            "category": "games",
+            "description": "The Typing of the RegEX game",
+            "link": "https://thetypingoftheregex.com/",
             "new": true
         },
         {
@@ -673,6 +687,13 @@
             "new": false
         },
         {
+            "added": "2022-09-20",
+            "category": "js-tools",
+            "description": "JSON Crack - Visualize JSON data into graphs",
+            "link": "https://jsoncrack.com/",
+            "new": false
+        },
+        {
             "added": "2022-07-30",
             "category": "js-tools",
             "description": "Random Data API",
@@ -726,6 +747,13 @@
             "category": "js-tools",
             "description": "JS event keycodes",
             "link": "http://keycode.info/",
+            "new": false
+        },
+        {
+            "added": "2022-09-20",
+            "category": "images",
+            "description": "Recoded - Create images or videos of your code",
+            "link": "https://recoded.netlify.app/",
             "new": false
         },
         {
