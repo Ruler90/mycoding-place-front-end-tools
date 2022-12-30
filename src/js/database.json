@@ -1,31 +1,31 @@
 {
     "database": [
         {
-            "added": "2022-11-18",
-            "category": "js-tools",
-            "description": "Random.org - True Random Number Service",
-            "link": "https://www.random.org/",
+            "added": "2022-12-30",
+            "category": "gradients",
+            "description": "Easing Gradients",
+            "link": "https://larsenwork.com/easing-gradients/",
             "new": true
         },
         {
-            "added": "2022-11-18",
-            "category": "audit",
-            "description": "treo.sh - Site speed report that uses Core Web Vitals",
-            "link": "https://treo.sh/sitespeed",
+            "added": "2022-12-30",
+            "category": "cheatsheets",
+            "description": "Heroku free alternatives list",
+            "link": "https://github.com/Engagespot/heroku-free-alternatives",
             "new": true
         },
         {
-            "added": "2022-11-18",
-            "category": "audit",
-            "description": "GTmetrix.com - Website Performance Testing",
-            "link": "https://gtmetrix.com/",
+            "added": "2022-12-30",
+            "category": "cheatsheets",
+            "description": "user-agents.net - User Agents list",
+            "link": "https://user-agents.net/",
             "new": true
         },
         {
-            "added": "2022-11-18",
-            "category": "games",
-            "description": "The Typing of the RegEX game",
-            "link": "https://thetypingoftheregex.com/",
+            "added": "2022-12-30",
+            "category": "cheatsheets",
+            "description": "Glyphs - Copy & Paste Symbols",
+            "link": "https://x.withseismic.com/glyphs",
             "new": true
         },
         {
@@ -54,6 +54,20 @@
             "category": "accessibility",
             "description": "Accessibility Insights - Accessibility testing app",
             "link": "https://accessibilityinsights.io/",
+            "new": false
+        },
+        {
+            "added": "2022-11-18",
+            "category": "audit",
+            "description": "treo.sh - Site speed report that uses Core Web Vitals",
+            "link": "https://treo.sh/sitespeed",
+            "new": false
+        },
+        {
+            "added": "2022-11-18",
+            "category": "audit",
+            "description": "GTmetrix.com - Website Performance Testing",
+            "link": "https://gtmetrix.com/",
             "new": false
         },
         {
@@ -173,13 +187,6 @@
             "category": "cheatsheets",
             "description": "Exploring all CSS cursor options",
             "link": "https://codepen.io/rebelchris/pen/jOqyVaB",
-            "new": false
-        },
-        {
-            "added": "2020-07-18",
-            "category": "cheatsheets",
-            "description": "Markdown syntax",
-            "link": "https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf",
             "new": false
         },
         {
@@ -463,6 +470,13 @@
             "new": false
         },
         {
+            "added": "2022-11-18",
+            "category": "games",
+            "description": "The Typing of the RegEX game",
+            "link": "https://thetypingoftheregex.com/",
+            "new": false
+        },
+        {
             "added": "2022-06-18",
             "category": "games",
             "description": "Can't Unsee - Select the correct design game",
@@ -684,6 +698,13 @@
             "category": "js-libraries",
             "description": "ztext.js",
             "link": "https://bennettfeely.com/ztext/",
+            "new": false
+        },
+        {
+            "added": "2022-11-18",
+            "category": "js-tools",
+            "description": "Random.org - True Random Number Service",
+            "link": "https://www.random.org/",
             "new": false
         },
         {
