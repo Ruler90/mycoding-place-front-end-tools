@@ -1,31 +1,38 @@
 {
     "database": [
         {
-            "added": "2023-04-10",
-            "category": "images",
-            "description": "vectormaker - convert PNG to SVG",
-            "link": "https://vectormaker.co/",
-            "new": true
-        },
-        {
-            "added": "2023-04-10",
+            "added": "2023-06-15",
             "category": "icons",
-            "description": "Iconer - Search many libraries for the icons you need",
-            "link": "https://iconer.app/",
+            "description": "MingCute Icon - Simple open-source icon library",
+            "link": "https://www.mingcute.com/",
             "new": true
         },
         {
-            "added": "2023-04-10",
-            "category": "cheatsheets",
-            "description": "Copy Symbol - Special characters library",
-            "link": "https://copy-symbol.webflow.io/",
+            "added": "2023-06-15",
+            "category": "js-tools",
+            "description": "IT-Tools - Handy tools for developers",
+            "link": "https://it-tools.tech/",
             "new": true
         },
         {
-            "added": "2023-04-10",
-            "category": "svg",
-            "description": "SVG Repo - 500.000+ SVG Vector and Icons",
-            "link": "https://www.svgrepo.com/",
+            "added": "2023-06-15",
+            "category": "css-tools",
+            "description": "uiverse.io - Open-Source UI elements for any project",
+            "link": "https://uiverse.io/",
+            "new": true
+        },
+        {
+            "added": "2023-06-15",
+            "category": "css-tools",
+            "description": "Pure CSS Loader Generator",
+            "link": "https://wweb.dev/resources/loader-generator",
+            "new": true
+        },
+        {
+            "added": "2023-06-15",
+            "category": "images",
+            "description": "Placehold - A simple image placeholder service",
+            "link": "https://placehold.co/",
             "new": true
         },
         {
@@ -145,6 +152,13 @@
             "category": "backgrounds",
             "description": "Subtle Patterns",
             "link": "https://www.toptal.com/designers/subtlepatterns/",
+            "new": false
+        },
+        {
+            "added": "2023-04-10",
+            "category": "cheatsheets",
+            "description": "Copy Symbol - Special characters library",
+            "link": "https://copy-symbol.webflow.io/",
             "new": false
         },
         {
@@ -624,6 +638,13 @@
             "new": false
         },
         {
+            "added": "2023-04-10",
+            "category": "icons",
+            "description": "Iconer - Search many libraries for the icons you need",
+            "link": "https://iconer.app/",
+            "new": false
+        },
+        {
             "added": "2022-06-18",
             "category": "icons",
             "description": "Pixel-art style icons",
@@ -799,6 +820,13 @@
             "new": false
         },
         {
+            "added": "2023-04-10",
+            "category": "images",
+            "description": "vectormaker - convert PNG to SVG",
+            "link": "https://vectormaker.co/",
+            "new": false
+        },
+        {
             "added": "2022-09-20",
             "category": "images",
             "description": "Recoded - Create images or videos of your code",
@@ -836,13 +864,6 @@
         {
             "added": "2021-11-09",
             "category": "images",
-            "description": "Lorem.space - API for placeholder images",
-            "link": "https://lorem.space/",
-            "new": false
-        },
-        {
-            "added": "2021-11-09",
-            "category": "images",
             "description": "Erase.bg - Remove background from images",
             "link": "https://www.erase.bg/",
             "new": false
@@ -869,17 +890,17 @@
             "new": false
         },
         {
-            "added": "2021-07-12",
-            "category": "images",
-            "description": "Free image placeholder service",
-            "link": "https://placeholder.com/",
-            "new": false
-        },
-        {
             "added": "2020-07-09",
             "category": "images",
             "description": "CoolText - Graphics Generator",
             "link": "https://cooltext.com/",
+            "new": false
+        },
+        {
+            "added": "2023-04-10",
+            "category": "svg",
+            "description": "SVG Repo - 500.000+ SVG Vector and Icons",
+            "link": "https://www.svgrepo.com/",
             "new": false
         },
         {
