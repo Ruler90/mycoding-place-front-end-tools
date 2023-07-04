@@ -1,38 +1,31 @@
 {
     "database": [
         {
-            "added": "2023-06-15",
+            "added": "2023-07-04",
+            "category": "cheatsheets",
+            "description": "Operator Lookup by Josh Comeau",
+            "link": "https://www.joshwcomeau.com/operator-lookup/",
+            "new": true
+        },
+        {
+            "added": "2023-07-04",
+            "category": "games",
+            "description": "Neal.Fun - The Password Game",
+            "link": "https://neal.fun/password-game/",
+            "new": true
+        },
+        {
+            "added": "2023-07-04",
             "category": "icons",
-            "description": "MingCute Icon - Simple open-source icon library",
-            "link": "https://www.mingcute.com/",
+            "description": "SVG and PNG tech icons",
+            "link": "https://techicons.dev/",
             "new": true
         },
         {
-            "added": "2023-06-15",
-            "category": "js-tools",
-            "description": "IT-Tools - Handy tools for developers",
-            "link": "https://it-tools.tech/",
-            "new": true
-        },
-        {
-            "added": "2023-06-15",
-            "category": "css-tools",
-            "description": "uiverse.io - Open-Source UI elements for any project",
-            "link": "https://uiverse.io/",
-            "new": true
-        },
-        {
-            "added": "2023-06-15",
-            "category": "css-tools",
-            "description": "Pure CSS Loader Generator",
-            "link": "https://wweb.dev/resources/loader-generator",
-            "new": true
-        },
-        {
-            "added": "2023-06-15",
-            "category": "images",
-            "description": "Placehold - A simple image placeholder service",
-            "link": "https://placehold.co/",
+            "added": "2023-07-04",
+            "category": "cheatsheets",
+            "description": "AI-Powered Regular Expression Solver",
+            "link": "https://regex.ai/",
             "new": true
         },
         {
@@ -365,6 +358,20 @@
             "new": false
         },
         {
+            "added": "2023-06-15",
+            "category": "css-tools",
+            "description": "uiverse.io - Open-Source UI elements for any project",
+            "link": "https://uiverse.io/",
+            "new": false
+        },
+        {
+            "added": "2023-06-15",
+            "category": "css-tools",
+            "description": "Pure CSS Loader Generator",
+            "link": "https://wweb.dev/resources/loader-generator",
+            "new": false
+        },
+        {
             "added": "2022-07-30",
             "category": "css-tools",
             "description": "CSS Shadow Gradients",
@@ -638,6 +645,13 @@
             "new": false
         },
         {
+            "added": "2023-06-15",
+            "category": "icons",
+            "description": "MingCute Icon - Simple open-source icon library",
+            "link": "https://www.mingcute.com/",
+            "new": false
+        },
+        {
             "added": "2023-04-10",
             "category": "icons",
             "description": "Iconer - Search many libraries for the icons you need",
@@ -750,6 +764,13 @@
             "new": false
         },
         {
+            "added": "2023-06-15",
+            "category": "js-tools",
+            "description": "IT-Tools - Handy tools for developers",
+            "link": "https://it-tools.tech/",
+            "new": false
+        },
+        {
             "added": "2022-11-18",
             "category": "js-tools",
             "description": "Random.org - false Random Number Service",
@@ -817,6 +838,13 @@
             "category": "js-tools",
             "description": "JS event keycodes",
             "link": "http://keycode.info/",
+            "new": false
+        },
+        {
+            "added": "2023-06-15",
+            "category": "images",
+            "description": "Placehold - A simple image placeholder service",
+            "link": "https://placehold.co/",
             "new": false
         },
         {
