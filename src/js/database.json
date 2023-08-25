@@ -1,31 +1,17 @@
 {
     "database": [
         {
-            "added": "2023-07-04",
-            "category": "cheatsheets",
-            "description": "Operator Lookup by Josh Comeau",
-            "link": "https://www.joshwcomeau.com/operator-lookup/",
-            "new": true
-        },
-        {
-            "added": "2023-07-04",
-            "category": "games",
-            "description": "Neal.Fun - The Password Game",
-            "link": "https://neal.fun/password-game/",
-            "new": true
-        },
-        {
-            "added": "2023-07-04",
+            "added": "2023-08-25",
             "category": "icons",
-            "description": "SVG and PNG tech icons",
-            "link": "https://techicons.dev/",
+            "description": "Iconbuddy - Personalize and download SVG icons",
+            "link": "https://iconbuddy.app/",
             "new": true
         },
         {
-            "added": "2023-07-04",
-            "category": "cheatsheets",
-            "description": "AI-Powered Regular Expression Solver",
-            "link": "https://regex.ai/",
+            "added": "2023-08-25",
+            "category": "icons",
+            "description": "SVGMix - SVG Logos and Icons",
+            "link": "https://svgmix.com/logos",
             "new": true
         },
         {
@@ -145,6 +131,20 @@
             "category": "backgrounds",
             "description": "Subtle Patterns",
             "link": "https://www.toptal.com/designers/subtlepatterns/",
+            "new": false
+        },
+        {
+            "added": "2023-07-04",
+            "category": "cheatsheets",
+            "description": "Operator Lookup by Josh Comeau",
+            "link": "https://www.joshwcomeau.com/operator-lookup/",
+            "new": false
+        },
+        {
+            "added": "2023-07-04",
+            "category": "cheatsheets",
+            "description": "AI-Powered Regular Expression Solver",
+            "link": "https://regex.ai/",
             "new": false
         },
         {
@@ -512,6 +512,13 @@
             "new": false
         },
         {
+            "added": "2023-07-04",
+            "category": "games",
+            "description": "Neal.Fun - The Password Game",
+            "link": "https://neal.fun/password-game/",
+            "new": false
+        },
+        {
             "added": "2022-11-18",
             "category": "games",
             "description": "The Typing of the RegEX game",
@@ -642,6 +649,13 @@
             "category": "gradients",
             "description": "Multicolor Gradients",
             "link": "https://gradienta.io/",
+            "new": false
+        },
+        {
+            "added": "2023-07-04",
+            "category": "icons",
+            "description": "SVG and PNG tech icons",
+            "link": "https://techicons.dev/",
             "new": false
         },
         {
