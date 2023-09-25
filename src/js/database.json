@@ -1,17 +1,17 @@
 {
     "database": [
         {
-            "added": "2023-08-25",
-            "category": "icons",
-            "description": "Iconbuddy - Personalize and download SVG icons",
-            "link": "https://iconbuddy.app/",
+            "added": "2023-09-25",
+            "category": "css-tools",
+            "description": "Collection of CSS loaders",
+            "link": "https://css-loaders.com/",
             "new": true
         },
         {
-            "added": "2023-08-25",
-            "category": "icons",
-            "description": "SVGMix - SVG Logos and Icons",
-            "link": "https://svgmix.com/logos",
+            "added": "2023-09-25",
+            "category": "images",
+            "description": "An Open Source AI Emoji Generator",
+            "link": "https://emoji.fly.dev/",
             "new": true
         },
         {
@@ -649,6 +649,20 @@
             "category": "gradients",
             "description": "Multicolor Gradients",
             "link": "https://gradienta.io/",
+            "new": false
+        },
+        {
+            "added": "2023-08-25",
+            "category": "icons",
+            "description": "Iconbuddy - Personalize and download SVG icons",
+            "link": "https://iconbuddy.app/",
+            "new": false
+        },
+        {
+            "added": "2023-08-25",
+            "category": "icons",
+            "description": "SVGMix - SVG Logos and Icons",
+            "link": "https://svgmix.com/logos",
             "new": false
         },
         {
