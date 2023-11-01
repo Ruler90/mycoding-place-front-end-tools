@@ -1,17 +1,31 @@
 {
     "database": [
         {
-            "added": "2023-09-25",
-            "category": "css-tools",
-            "description": "Collection of CSS loaders",
-            "link": "https://css-loaders.com/",
+            "added": "2023-11-01",
+            "category": "images",
+            "description": "SVGOMG - Optimize SVG images",
+            "link": "https://jakearchibald.github.io/svgomg/",
             "new": true
         },
         {
-            "added": "2023-09-25",
-            "category": "images",
-            "description": "An Open Source AI Emoji Generator",
-            "link": "https://emoji.fly.dev/",
+            "added": "2023-11-01",
+            "category": "svg",
+            "description": "unstock.ai - AI-generated SVGs",
+            "link": "https://unstock.ai/create/icons",
+            "new": true
+        },
+        {
+            "added": "2023-11-01",
+            "category": "css-tools",
+            "description": "Epic Easing - CSS Easing Generator",
+            "link": "https://epiceasing.com/",
+            "new": true
+        },
+        {
+            "added": "2023-11-01",
+            "category": "js-tools",
+            "description": "TypeScript Playground",
+            "link": "https://www.typescriptlang.org/play",
             "new": true
         },
         {
@@ -355,6 +369,13 @@
             "category": "colors",
             "description": "Color wheel - Makes color combinations easy",
             "link": "https://www.canva.com/colors/color-wheel/",
+            "new": false
+        },
+        {
+            "added": "2023-09-25",
+            "category": "css-tools",
+            "description": "Collection of CSS loaders",
+            "link": "https://css-loaders.com/",
             "new": false
         },
         {
@@ -866,6 +887,13 @@
             "category": "js-tools",
             "description": "JS event keycodes",
             "link": "http://keycode.info/",
+            "new": false
+        },
+        {
+            "added": "2023-09-25",
+            "category": "images",
+            "description": "An Open Source AI Emoji Generator",
+            "link": "https://emoji.fly.dev/",
             "new": false
         },
         {
