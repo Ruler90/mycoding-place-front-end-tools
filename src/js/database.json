@@ -1,31 +1,24 @@
 {
     "database": [
         {
-            "added": "2023-11-01",
-            "category": "images",
-            "description": "SVGOMG - Optimize SVG images",
-            "link": "https://jakearchibald.github.io/svgomg/",
-            "new": true
-        },
-        {
-            "added": "2023-11-01",
-            "category": "svg",
-            "description": "unstock.ai - AI-generated SVGs",
-            "link": "https://unstock.ai/create/icons",
-            "new": true
-        },
-        {
-            "added": "2023-11-01",
-            "category": "css-tools",
-            "description": "Epic Easing - CSS Easing Generator",
-            "link": "https://epiceasing.com/",
-            "new": true
-        },
-        {
-            "added": "2023-11-01",
+            "added": "2023-11-23",
             "category": "js-tools",
-            "description": "TypeScript Playground",
-            "link": "https://www.typescriptlang.org/play",
+            "description": "Bundlephobia - Find the cost of npm packages",
+            "link": "https://bundlephobia.com/",
+            "new": true
+        },
+        {
+            "added": "2023-11-23",
+            "category": "audit",
+            "description": "Diagnostic CSS snippet to check the &lt;head&gt; tag",
+            "link": "https://csswizardry.com/ct/",
+            "new": true
+        },
+        {
+            "added": "2023-11-23",
+            "category": "animations",
+            "description": "CSS Animations with No-Code",
+            "link": "https://cssanimotion.pages.dev/",
             "new": true
         },
         {
@@ -372,6 +365,13 @@
             "new": false
         },
         {
+            "added": "2023-11-01",
+            "category": "css-tools",
+            "description": "Epic Easing - CSS Easing Generator",
+            "link": "https://epiceasing.com/",
+            "new": false
+        },
+        {
             "added": "2023-09-25",
             "category": "css-tools",
             "description": "Collection of CSS loaders",
@@ -402,7 +402,7 @@
         {
             "added": "2022-05-11",
             "category": "css-tools",
-            "description": "Custom border generator",
+            "description": "Custom corners generator",
             "link": "https://css-generators.com/custom-corners/",
             "new": false
         },
@@ -486,13 +486,6 @@
         {
             "added": "2020-07-09",
             "category": "css-tools",
-            "description": "px to em converter",
-            "link": "http://pxtoem.com/",
-            "new": false
-        },
-        {
-            "added": "2020-07-09",
-            "category": "css-tools",
             "description": "Bun - A Custom Checkboxes & Radios CSS Generator",
             "link": "https://bun.js.org/",
             "new": false
@@ -502,13 +495,6 @@
             "category": "css-tools",
             "description": "Layoutit! CSS Grid Generator",
             "link": "https://grid.layoutit.com/",
-            "new": false
-        },
-        {
-            "added": "2020-07-09",
-            "category": "css-tools",
-            "description": "cssgr.id - CSS Grid Generator",
-            "link": "https://cssgr.id/",
             "new": false
         },
         {
@@ -813,6 +799,13 @@
             "new": false
         },
         {
+            "added": "2023-11-01",
+            "category": "js-tools",
+            "description": "TypeScript Playground",
+            "link": "https://www.typescriptlang.org/play",
+            "new": false
+        },
+        {
             "added": "2023-06-15",
             "category": "js-tools",
             "description": "IT-Tools - Handy tools for developers",
@@ -887,6 +880,13 @@
             "category": "js-tools",
             "description": "JS event keycodes",
             "link": "http://keycode.info/",
+            "new": false
+        },
+        {
+            "added": "2023-11-01",
+            "category": "images",
+            "description": "SVGOMG - Optimize SVG images",
+            "link": "https://jakearchibald.github.io/svgomg/",
             "new": false
         },
         {
@@ -978,6 +978,13 @@
             "category": "images",
             "description": "CoolText - Graphics Generator",
             "link": "https://cooltext.com/",
+            "new": false
+        },
+        {
+            "added": "2023-11-01",
+            "category": "svg",
+            "description": "unstock.ai - AI-generated SVGs",
+            "link": "https://unstock.ai/create/icons",
             "new": false
         },
         {
