@@ -1,24 +1,31 @@
 {
     "database": [
         {
-            "added": "2023-11-23",
-            "category": "js-tools",
-            "description": "Bundlephobia - Find the cost of npm packages",
-            "link": "https://bundlephobia.com/",
+            "added": "2024-02-08",
+            "category": "css-tools",
+            "description": "loadership - CSS-only loader configurators",
+            "link": "https://www.loadership.com/",
             "new": true
         },
         {
-            "added": "2023-11-23",
+            "added": "2024-02-08",
             "category": "audit",
-            "description": "Diagnostic CSS snippet to check the &lt;head&gt; tag",
-            "link": "https://csswizardry.com/ct/",
+            "description": "Check the efficiency of your ad blocker with Toolz",
+            "link": "https://d3ward.github.io/toolz/adblock",
             "new": true
         },
         {
-            "added": "2023-11-23",
-            "category": "animations",
-            "description": "CSS Animations with No-Code",
-            "link": "https://cssanimotion.pages.dev/",
+            "added": "2024-02-08",
+            "category": "audit",
+            "description": "Lighthouse Metrics measured globally",
+            "link": "https://lighthouse-metrics.com/",
+            "new": true
+        },
+        {
+            "added": "2024-02-08",
+            "category": "audit",
+            "description": "PageSpeed Insights - Check your site's performance",
+            "link": "https://pagespeed.web.dev/",
             "new": true
         },
         {
@@ -47,6 +54,13 @@
             "category": "accessibility",
             "description": "Accessibility Insights - Accessibility testing app",
             "link": "https://accessibilityinsights.io/",
+            "new": false
+        },
+        {
+            "added": "2023-11-23",
+            "category": "audit",
+            "description": "Diagnostic CSS snippet to check the &lt;head&gt; tag",
+            "link": "https://csswizardry.com/ct/",
             "new": false
         },
         {
@@ -82,6 +96,13 @@
             "category": "audit",
             "description": "Yellow Lab Tools - Speed up heavy web pages",
             "link": "https://yellowlab.tools/",
+            "new": false
+        },
+        {
+            "added": "2023-11-23",
+            "category": "animations",
+            "description": "CSS Animations with No-Code",
+            "link": "https://cssanimotion.pages.dev/",
             "new": false
         },
         {
@@ -796,6 +817,13 @@
             "category": "js-libraries",
             "description": "ztext.js",
             "link": "https://bennettfeely.com/ztext/",
+            "new": false
+        },
+        {
+            "added": "2023-11-23",
+            "category": "js-tools",
+            "description": "Bundlephobia - Find the cost of npm packages",
+            "link": "https://bundlephobia.com/",
             "new": false
         },
         {
