@@ -1,31 +1,31 @@
 {
     "database": [
         {
-            "added": "2024-02-08",
-            "category": "css-tools",
-            "description": "loadership - CSS-only loader configurators",
-            "link": "https://www.loadership.com/",
+            "added": "2024-04-24",
+            "category": "audit",
+            "description": "Cover Your Tracks - See how trackers view your browser",
+            "link": "https://coveryourtracks.eff.org/",
             "new": true
         },
         {
-            "added": "2024-02-08",
-            "category": "audit",
-            "description": "Check the efficiency of your ad blocker with Toolz",
-            "link": "https://d3ward.github.io/toolz/adblock",
+            "added": "2024-04-24",
+            "category": "svg",
+            "description": "SVG Flag Icons",
+            "link": "https://nucleoapp.com/svg-flag-icons",
             "new": true
         },
         {
-            "added": "2024-02-08",
-            "category": "audit",
-            "description": "Lighthouse Metrics measured globally",
-            "link": "https://lighthouse-metrics.com/",
+            "added": "2024-04-24",
+            "category": "cheatsheets",
+            "description": "CSS Triggers List",
+            "link": "https://csstriggers.com/",
             "new": true
         },
         {
-            "added": "2024-02-08",
-            "category": "audit",
-            "description": "PageSpeed Insights - Check your site's performance",
-            "link": "https://pagespeed.web.dev/",
+            "added": "2024-04-24",
+            "category": "js-tools",
+            "description": "Open Graph Generator",
+            "link": "https://freecodetools.org/ogp/",
             "new": true
         },
         {
@@ -54,6 +54,27 @@
             "category": "accessibility",
             "description": "Accessibility Insights - Accessibility testing app",
             "link": "https://accessibilityinsights.io/",
+            "new": false
+        },
+        {
+            "added": "2024-02-08",
+            "category": "audit",
+            "description": "Check the efficiency of your ad blocker with Toolz",
+            "link": "https://d3ward.github.io/toolz/adblock",
+            "new": false
+        },
+        {
+            "added": "2024-02-08",
+            "category": "audit",
+            "description": "Lighthouse Metrics measured globally",
+            "link": "https://lighthouse-metrics.com/",
+            "new": false
+        },
+        {
+            "added": "2024-02-08",
+            "category": "audit",
+            "description": "PageSpeed Insights - Check your site's performance",
+            "link": "https://pagespeed.web.dev/",
             "new": false
         },
         {
@@ -383,6 +404,13 @@
             "category": "colors",
             "description": "Color wheel - Makes color combinations easy",
             "link": "https://www.canva.com/colors/color-wheel/",
+            "new": false
+        },
+        {
+            "added": "2024-02-08",
+            "category": "css-tools",
+            "description": "loadership - CSS-only loader configurators",
+            "link": "https://www.loadership.com/",
             "new": false
         },
         {
