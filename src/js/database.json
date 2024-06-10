@@ -1,31 +1,17 @@
 {
     "database": [
         {
-            "added": "2024-04-24",
-            "category": "audit",
-            "description": "Cover Your Tracks - See how trackers view your browser",
-            "link": "https://coveryourtracks.eff.org/",
-            "new": true
-        },
-        {
-            "added": "2024-04-24",
-            "category": "svg",
-            "description": "SVG Flag Icons",
-            "link": "https://nucleoapp.com/svg-flag-icons",
-            "new": true
-        },
-        {
-            "added": "2024-04-24",
+            "added": "2024-06-10",
             "category": "cheatsheets",
-            "description": "CSS Triggers List",
-            "link": "https://csstriggers.com/",
+            "description": "Awesome ChatGPT Prompts",
+            "link": "https://prompts.chat/",
             "new": true
         },
         {
-            "added": "2024-04-24",
-            "category": "js-tools",
-            "description": "Open Graph Generator",
-            "link": "https://freecodetools.org/ogp/",
+            "added": "2024-06-10",
+            "category": "cheatsheets",
+            "description": "Developer Roadmaps",
+            "link": "https://roadmap.sh/",
             "new": true
         },
         {
@@ -54,6 +40,13 @@
             "category": "accessibility",
             "description": "Accessibility Insights - Accessibility testing app",
             "link": "https://accessibilityinsights.io/",
+            "new": false
+        },
+        {
+            "added": "2024-04-24",
+            "category": "audit",
+            "description": "Cover Your Tracks - See how trackers view your browser",
+            "link": "https://coveryourtracks.eff.org/",
             "new": false
         },
         {
@@ -180,6 +173,13 @@
             "category": "backgrounds",
             "description": "Subtle Patterns",
             "link": "https://www.toptal.com/designers/subtlepatterns/",
+            "new": false
+        },
+        {
+            "added": "2024-04-24",
+            "category": "cheatsheets",
+            "description": "CSS Triggers List",
+            "link": "https://csstriggers.com/",
             "new": false
         },
         {
@@ -848,6 +848,13 @@
             "new": false
         },
         {
+            "added": "2024-04-24",
+            "category": "js-tools",
+            "description": "Open Graph Generator",
+            "link": "https://freecodetools.org/ogp/",
+            "new": false
+        },
+        {
             "added": "2023-11-23",
             "category": "js-tools",
             "description": "Bundlephobia - Find the cost of npm packages",
@@ -1034,6 +1041,13 @@
             "category": "images",
             "description": "CoolText - Graphics Generator",
             "link": "https://cooltext.com/",
+            "new": false
+        },
+        {
+            "added": "2024-04-24",
+            "category": "svg",
+            "description": "SVG Flag Icons",
+            "link": "https://nucleoapp.com/svg-flag-icons",
             "new": false
         },
         {
