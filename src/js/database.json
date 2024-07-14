@@ -1,17 +1,31 @@
 {
     "database": [
         {
-            "added": "2024-06-10",
-            "category": "cheatsheets",
-            "description": "Awesome ChatGPT Prompts",
-            "link": "https://prompts.chat/",
+            "added": "2024-07-14",
+            "category": "audit",
+            "description": "GiftOfSpeed -  Test your web page's speed",
+            "link": "https://www.giftofspeed.com/",
             "new": true
         },
         {
-            "added": "2024-06-10",
+            "added": "2024-07-14",
+            "category": "audit",
+            "description": "Request Map Generator - Generate reports from WebPageTest",
+            "link": "https://requestmap.webperf.tools/",
+            "new": true
+        },
+        {
+            "added": "2024-07-14",
             "category": "cheatsheets",
-            "description": "Developer Roadmaps",
-            "link": "https://roadmap.sh/",
+            "description": "What forces layout/reflow",
+            "link": "https://gist.github.com/paulirish/5d52fb081b3570c81e3a",
+            "new": true
+        },
+        {
+            "added": "2024-07-14",
+            "category": "css-tools",
+            "description": "Animate.css - A library of CSS animations",
+            "link": "https://animate.style/",
             "new": true
         },
         {
@@ -173,6 +187,20 @@
             "category": "backgrounds",
             "description": "Subtle Patterns",
             "link": "https://www.toptal.com/designers/subtlepatterns/",
+            "new": false
+        },
+        {
+            "added": "2024-06-10",
+            "category": "cheatsheets",
+            "description": "Awesome ChatGPT Prompts",
+            "link": "https://prompts.chat/",
+            "new": false
+        },
+        {
+            "added": "2024-06-10",
+            "category": "cheatsheets",
+            "description": "Developer Roadmaps",
+            "link": "https://roadmap.sh/",
             "new": false
         },
         {
