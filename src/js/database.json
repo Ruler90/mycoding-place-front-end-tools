@@ -1,31 +1,17 @@
 {
     "database": [
         {
-            "added": "2024-07-14",
-            "category": "audit",
-            "description": "GiftOfSpeed -  Test your web page's speed",
-            "link": "https://www.giftofspeed.com/",
-            "new": true
-        },
-        {
-            "added": "2024-07-14",
-            "category": "audit",
-            "description": "Request Map Generator - Generate reports from WebPageTest",
-            "link": "https://requestmap.webperf.tools/",
-            "new": true
-        },
-        {
-            "added": "2024-07-14",
+            "added": "2024-08-26",
             "category": "cheatsheets",
-            "description": "What forces layout/reflow",
-            "link": "https://gist.github.com/paulirish/5d52fb081b3570c81e3a",
+            "description": "Making SVG Loading Spinners",
+            "link": "https://www.fffuel.co/svg-spinner/",
             "new": true
         },
         {
-            "added": "2024-07-14",
-            "category": "css-tools",
-            "description": "Animate.css - A library of CSS animations",
-            "link": "https://animate.style/",
+            "added": "2024-08-26",
+            "category": "gradients",
+            "description": "CSS Gradient Generator",
+            "link": "https://www.learnui.design/tools/gradient-generator.html",
             "new": true
         },
         {
@@ -54,6 +40,20 @@
             "category": "accessibility",
             "description": "Accessibility Insights - Accessibility testing app",
             "link": "https://accessibilityinsights.io/",
+            "new": false
+        },
+        {
+            "added": "2024-07-14",
+            "category": "audit",
+            "description": "GiftOfSpeed -  Test your web page's speed",
+            "link": "https://www.giftofspeed.com/",
+            "new": false
+        },
+        {
+            "added": "2024-07-14",
+            "category": "audit",
+            "description": "Request Map Generator - Generate reports from WebPageTest",
+            "link": "https://requestmap.webperf.tools/",
             "new": false
         },
         {
@@ -187,6 +187,13 @@
             "category": "backgrounds",
             "description": "Subtle Patterns",
             "link": "https://www.toptal.com/designers/subtlepatterns/",
+            "new": false
+        },
+        {
+            "added": "2024-07-14",
+            "category": "cheatsheets",
+            "description": "What forces layout/reflow",
+            "link": "https://gist.github.com/paulirish/5d52fb081b3570c81e3a",
             "new": false
         },
         {
@@ -432,6 +439,13 @@
             "category": "colors",
             "description": "Color wheel - Makes color combinations easy",
             "link": "https://www.canva.com/colors/color-wheel/",
+            "new": false
+        },
+        {
+            "added": "2024-07-14",
+            "category": "css-tools",
+            "description": "Animate.css - A library of CSS animations",
+            "link": "https://animate.style/",
             "new": false
         },
         {
