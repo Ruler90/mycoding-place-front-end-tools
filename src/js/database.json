@@ -1,17 +1,17 @@
 {
     "database": [
         {
-            "added": "2024-08-26",
-            "category": "cheatsheets",
-            "description": "Making SVG Loading Spinners",
-            "link": "https://www.fffuel.co/svg-spinner/",
+            "added": "2024-09-24",
+            "category": "svg",
+            "description": "LogoZanaat - Create simple SVG and PNG logo",
+            "link": "https://www.logozanaat.app/",
             "new": true
         },
         {
-            "added": "2024-08-26",
-            "category": "gradients",
-            "description": "CSS Gradient Generator",
-            "link": "https://www.learnui.design/tools/gradient-generator.html",
+            "added": "2024-09-24",
+            "category": "cheatsheets",
+            "description": "The TSConfig Cheat Sheet",
+            "link": "https://www.totaltypescript.com/tsconfig-cheat-sheet",
             "new": true
         },
         {
@@ -187,6 +187,13 @@
             "category": "backgrounds",
             "description": "Subtle Patterns",
             "link": "https://www.toptal.com/designers/subtlepatterns/",
+            "new": false
+        },
+        {
+            "added": "2024-08-26",
+            "category": "cheatsheets",
+            "description": "Making SVG Loading Spinners",
+            "link": "https://www.fffuel.co/svg-spinner/",
             "new": false
         },
         {
@@ -481,6 +488,13 @@
             "category": "css-tools",
             "description": "Pure CSS Loader Generator",
             "link": "https://wweb.dev/resources/loader-generator",
+            "new": false
+        },
+        {
+            "added": "2024-08-26",
+            "category": "gradients",
+            "description": "CSS Gradient Generator",
+            "link": "https://www.learnui.design/tools/gradient-generator.html",
             "new": false
         },
         {
