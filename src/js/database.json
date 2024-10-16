@@ -1,17 +1,17 @@
 {
     "database": [
         {
-            "added": "2024-09-24",
-            "category": "svg",
-            "description": "LogoZanaat - Create simple SVG and PNG logo",
-            "link": "https://www.logozanaat.app/",
+            "added": "2024-10-16",
+            "category": "audit",
+            "description": "Check Gzip/Brotli Compression",
+            "link": "https://www.giftofspeed.com/gzip-test/",
             "new": true
         },
         {
-            "added": "2024-09-24",
-            "category": "cheatsheets",
-            "description": "The TSConfig Cheat Sheet",
-            "link": "https://www.totaltypescript.com/tsconfig-cheat-sheet",
+            "added": "2024-10-16",
+            "category": "images",
+            "description": "Ezgif - Online GIF maker and image editor",
+            "link": "https://ezgif.com/",
             "new": true
         },
         {
@@ -187,6 +187,13 @@
             "category": "backgrounds",
             "description": "Subtle Patterns",
             "link": "https://www.toptal.com/designers/subtlepatterns/",
+            "new": false
+        },
+        {
+            "added": "2024-09-24",
+            "category": "cheatsheets",
+            "description": "The TSConfig Cheat Sheet",
+            "link": "https://www.totaltypescript.com/tsconfig-cheat-sheet",
             "new": false
         },
         {
@@ -1097,6 +1104,13 @@
             "category": "images",
             "description": "CoolText - Graphics Generator",
             "link": "https://cooltext.com/",
+            "new": false
+        },
+        {
+            "added": "2024-09-24",
+            "category": "svg",
+            "description": "LogoZanaat - Create simple SVG and PNG logo",
+            "link": "https://www.logozanaat.app/",
             "new": false
         },
         {
