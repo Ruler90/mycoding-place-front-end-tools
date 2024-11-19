@@ -1,17 +1,17 @@
 {
     "database": [
         {
-            "added": "2024-10-16",
+            "added": "2024-11-19",
             "category": "audit",
-            "description": "Check Gzip/Brotli Compression",
-            "link": "https://www.giftofspeed.com/gzip-test/",
+            "description": "WebPerf Snippets",
+            "link": "https://webperf-snippets.nucliweb.net/",
             "new": true
         },
         {
-            "added": "2024-10-16",
-            "category": "images",
-            "description": "Ezgif - Online GIF maker and image editor",
-            "link": "https://ezgif.com/",
+            "added": "2024-11-19",
+            "category": "colors",
+            "description": "Color Buddy - Color palette development tool",
+            "link": "https://color-buddy.netlify.app/",
             "new": true
         },
         {
@@ -40,6 +40,13 @@
             "category": "accessibility",
             "description": "Accessibility Insights - Accessibility testing app",
             "link": "https://accessibilityinsights.io/",
+            "new": false
+        },
+        {
+            "added": "2024-10-16",
+            "category": "audit",
+            "description": "Check Gzip/Brotli Compression",
+            "link": "https://www.giftofspeed.com/gzip-test/",
             "new": false
         },
         {
@@ -1006,6 +1013,13 @@
             "category": "js-tools",
             "description": "JS event keycodes",
             "link": "http://keycode.info/",
+            "new": false
+        },
+        {
+            "added": "2024-10-16",
+            "category": "images",
+            "description": "Ezgif - Online GIF maker and image editor",
+            "link": "https://ezgif.com/",
             "new": false
         },
         {
