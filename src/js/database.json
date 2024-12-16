@@ -1,17 +1,10 @@
 {
     "database": [
         {
-            "added": "2024-11-19",
-            "category": "audit",
-            "description": "WebPerf Snippets",
-            "link": "https://webperf-snippets.nucliweb.net/",
-            "new": true
-        },
-        {
-            "added": "2024-11-19",
-            "category": "colors",
-            "description": "Color Buddy - Color palette development tool",
-            "link": "https://color-buddy.netlify.app/",
+            "added": "2024-12-16",
+            "category": "js-tools",
+            "description": "JSON.pub - JSON Viewer and Formatter",
+            "link": "https://json.pub/",
             "new": true
         },
         {
@@ -40,6 +33,13 @@
             "category": "accessibility",
             "description": "Accessibility Insights - Accessibility testing app",
             "link": "https://accessibilityinsights.io/",
+            "new": false
+        },
+        {
+            "added": "2024-11-19",
+            "category": "audit",
+            "description": "WebPerf Snippets",
+            "link": "https://webperf-snippets.nucliweb.net/",
             "new": false
         },
         {
@@ -369,6 +369,13 @@
             "category": "cheatsheets",
             "description": "Emmet cheatsheet",
             "link": "https://docs.emmet.io/cheat-sheet/",
+            "new": false
+        },
+        {
+            "added": "2024-11-19",
+            "category": "colors",
+            "description": "Color Buddy - Color palette development tool",
+            "link": "https://color-buddy.netlify.app/",
             "new": false
         },
         {
