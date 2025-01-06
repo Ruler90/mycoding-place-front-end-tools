@@ -63,7 +63,11 @@ const generateLatestTiles = (database) => {
             tiles.appendChild(tile);
         }
     });
-    tilesWrapper.appendChild(tiles);
+    if (tiles.children.length) {
+        tilesWrapper.appendChild(tiles);
+        const noTilesDescription = document.querySelectorAll('.mcp-section__description');
+        noTilesDescription.forEach((item) => item.remove());
+    }
 };
 
 const btnsStateHandler = (event) => {

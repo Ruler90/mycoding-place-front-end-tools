@@ -1,13 +1,6 @@
 {
     "database": [
         {
-            "added": "2024-12-16",
-            "category": "js-tools",
-            "description": "JSON.pub - JSON Viewer and Formatter",
-            "link": "https://json.pub/",
-            "new": true
-        },
-        {
             "added": "2020-11-14",
             "category": "accessibility",
             "description": "Color.review - Contrast ratio with visualizer",
@@ -778,13 +771,6 @@
             "new": false
         },
         {
-            "added": "2020-07-09",
-            "category": "gradients",
-            "description": "Multicolor Gradients",
-            "link": "https://gradienta.io/",
-            "new": false
-        },
-        {
             "added": "2023-08-25",
             "category": "icons",
             "description": "Iconbuddy - Personalize and download SVG icons",
@@ -922,6 +908,13 @@
             "category": "js-libraries",
             "description": "ztext.js",
             "link": "https://bennettfeely.com/ztext/",
+            "new": false
+        },
+        {
+            "added": "2024-12-16",
+            "category": "js-tools",
+            "description": "JSON.pub - JSON Viewer and Formatter",
+            "link": "https://json.pub/",
             "new": false
         },
         {
