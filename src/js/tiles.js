@@ -40,7 +40,7 @@ const createTile = (item, wrapper) => {
     tile.setAttribute(
         'class',
         `mcp-tile
-        ${wrapper.classList.contains('mcp-tiles--latest') ? '' : ' mcp-tile--fade-out'}
+        ${wrapper?.classList.contains('mcp-tiles--latest') ? '' : ' mcp-tile--fade-out'}
         ${item.new ? ' mcp-tile--new' : ''}
     `
     );
@@ -63,7 +63,7 @@ const generateLatestTiles = (database) => {
             tiles.appendChild(tile);
         }
     });
-    if (tiles.children.length) {
+    if (tilesWrapper && tiles.children.length) {
         tilesWrapper.appendChild(tiles);
         const noTilesDescription = document.querySelectorAll('.mcp-section__description');
         noTilesDescription.forEach((item) => item.remove());
@@ -112,7 +112,7 @@ const generateNewTiles = (category, wrapper, database) => {
 };
 
 const scrollTilesIntoView = () => {
-    document.querySelector('.mcp-section--category').scrollIntoView();
+    document.querySelector('.mcp-section--category')?.scrollIntoView();
 };
 
 const swapCategoryTiles = (event, category, database) => {
@@ -147,7 +147,7 @@ const preventInitialScrollTilesIntoView = () => {
 
 const generateInitialTiles = () => {
     const categoryBtn = document.querySelector('.mcp-categories__item');
-    categoryBtn.click();
+    categoryBtn?.click();
     preventInitialScrollTilesIntoView();
 };
 
