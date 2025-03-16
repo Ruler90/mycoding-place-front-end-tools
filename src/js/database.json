@@ -66,13 +66,6 @@
         {
             "added": "2024-02-08",
             "category": "audit",
-            "description": "Check the efficiency of your ad blocker with Toolz",
-            "link": "https://d3ward.github.io/toolz/adblock",
-            "new": false
-        },
-        {
-            "added": "2024-02-08",
-            "category": "audit",
             "description": "Lighthouse Metrics measured globally",
             "link": "https://lighthouse-metrics.com/",
             "new": false
@@ -124,13 +117,6 @@
             "category": "audit",
             "description": "Yellow Lab Tools - Speed up heavy web pages",
             "link": "https://yellowlab.tools/",
-            "new": false
-        },
-        {
-            "added": "2023-11-23",
-            "category": "animations",
-            "description": "CSS Animations with No-Code",
-            "link": "https://cssanimotion.pages.dev/",
             "new": false
         },
         {
@@ -332,13 +318,6 @@
         {
             "added": "2020-07-09",
             "category": "cheatsheets",
-            "description": "GitSheet - A dead simple git cheatsheet",
-            "link": "https://gitsheet.wtf/",
-            "new": false
-        },
-        {
-            "added": "2020-07-09",
-            "category": "cheatsheets",
             "description": "CSS selectors cheatsheet",
             "link": "https://frontend30.com/css-selectors-cheatsheet/",
             "new": false
@@ -348,13 +327,6 @@
             "category": "cheatsheets",
             "description": "HTML Symbols, Entities and ASCII Character Codes",
             "link": "https://www.toptal.com/designers/htmlarrows/",
-            "new": false
-        },
-        {
-            "added": "2020-07-09",
-            "category": "cheatsheets",
-            "description": "Screen size map",
-            "link": "https://screensizemap.com/",
             "new": false
         },
         {
@@ -425,13 +397,6 @@
             "category": "colors",
             "description": "colors.lol - Overly descriptive color palettes",
             "link": "https://colors.lol/",
-            "new": false
-        },
-        {
-            "added": "2020-07-09",
-            "category": "colors",
-            "description": "Colormind - Generate color schemes for a bootstrap theme",
-            "link": "http://colormind.io/bootstrap/",
             "new": false
         },
         {
@@ -558,13 +523,6 @@
             "category": "css-tools",
             "description": "Neumorphism.io - Generate Soft-UI CSS code",
             "link": "https://neumorphism.io/",
-            "new": false
-        },
-        {
-            "added": "2020-07-09",
-            "category": "css-tools",
-            "description": "Smooth Shadow Generator",
-            "link": "https://shadows.brumm.af/",
             "new": false
         },
         {
@@ -834,13 +792,6 @@
             "new": false
         },
         {
-            "added": "2020-11-21",
-            "category": "icons",
-            "description": "SVGBox - API for web icons",
-            "link": "https://svgbox.net/",
-            "new": false
-        },
-        {
             "added": "2020-10-22",
             "category": "icons",
             "description": "Free Favicon Maker",
@@ -863,20 +814,6 @@
         },
         {
             "added": "2020-07-09",
-            "category": "icons",
-            "description": "Icon Transition Generator",
-            "link": "https://nucleoapp.com/tool/icon-transition",
-            "new": false
-        },
-        {
-            "added": "2021-04-14",
-            "category": "inspirations",
-            "description": "UI Garage",
-            "link": "https://uigarage.net/",
-            "new": false
-        },
-        {
-            "added": "2020-07-09",
             "category": "inspirations",
             "description": "Web Design Inspiration",
             "link": "https://www.webdesign-inspiration.com/",
@@ -886,7 +823,7 @@
             "added": "2020-07-09",
             "category": "inspirations",
             "description": "Behance",
-            "link": "https://uigarage.net/",
+            "link": "https://www.behance.net/",
             "new": false
         },
         {
@@ -1030,13 +967,6 @@
             "new": false
         },
         {
-            "added": "2023-09-25",
-            "category": "images",
-            "description": "An Open Source AI Emoji Generator",
-            "link": "https://emoji.fly.dev/",
-            "new": false
-        },
-        {
             "added": "2023-06-15",
             "category": "images",
             "description": "Placehold - A simple image placeholder service",
@@ -1086,13 +1016,6 @@
             "new": false
         },
         {
-            "added": "2021-11-09",
-            "category": "images",
-            "description": "Erase.bg - Remove background from images",
-            "link": "https://www.erase.bg/",
-            "new": false
-        },
-        {
             "added": "2021-09-19",
             "category": "images",
             "description": "Doodle Ipsum - Lorem ipsum of illustrations",
@@ -1135,24 +1058,10 @@
             "new": false
         },
         {
-            "added": "2023-11-01",
-            "category": "svg",
-            "description": "unstock.ai - AI-generated SVGs",
-            "link": "https://unstock.ai/create/icons",
-            "new": false
-        },
-        {
             "added": "2023-04-10",
             "category": "svg",
             "description": "SVG Repo - 500.000+ SVG Vector and Icons",
             "link": "https://www.svgrepo.com/",
-            "new": false
-        },
-        {
-            "added": "2022-07-30",
-            "category": "svg",
-            "description": "app.heazy.studio - SVG assets generator",
-            "link": "https://app.heazy.studio/",
             "new": false
         },
         {
