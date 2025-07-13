@@ -224,6 +224,7 @@ body {
   font-family: "Fira Code", monospace;
   font-weight: 700;
   overflow-x: hidden;
+  background-color: #262626;
   background-image: url("../assets/svg/grey-lines-bg.svg");
   background-size: cover;
   background-attachment: fixed;
@@ -569,6 +570,10 @@ footer {
   color: #0d0d0d;
   text-align: center;
   transition: box-shadow 200ms ease;
+}
+.mcp-categories__item h3 {
+  margin: 0;
+  font-size: inherit;
 }
 .mcp-categories__item:hover, .mcp-categories__item:focus {
   cursor: pointer;

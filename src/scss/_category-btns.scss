@@ -24,6 +24,11 @@
     text-align: center;
     transition: box-shadow 200ms ease;
 
+    h3 {
+        margin: 0;
+        font-size: inherit
+    }
+
     &:hover,
     &:focus {
         cursor: pointer;
