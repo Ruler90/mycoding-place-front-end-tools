@@ -1,6 +1,13 @@
 {
     "database": [
         {
+            "added": "2025-07-13",
+            "category": "accessibility",
+            "description": "Web Accessibility Evaluation Tool",
+            "link": "https://wave.webaim.org/",
+            "new": false
+        },
+        {
             "added": "2020-11-14",
             "category": "accessibility",
             "description": "Color.review - Contrast ratio with visualizer",
@@ -26,6 +33,13 @@
             "category": "accessibility",
             "description": "Accessibility Insights - Accessibility testing app",
             "link": "https://accessibilityinsights.io/",
+            "new": false
+        },
+                {
+            "added": "2025-07-13",
+            "category": "audit",
+            "description": "Find out what a website is built with",
+            "link": "https://builtwith.com/",
             "new": false
         },
         {
